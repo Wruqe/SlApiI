@@ -1,0 +1,424 @@
+{
+  "posts": [
+    {
+      "postID": 1,
+      "userId": 1,
+      "content": "Just discovered a parallel universe where cats walk humans and demand treats. #UpsideDownPetWorld",
+      "post_rating": [4, 5, 3],
+      "comments": [
+        {
+          "commentID": 1,
+          "userId": 2,
+          "text": "Do they have catnip there? Asking for a friend in this universe. 😺",
+          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+        },
+        {
+          "commentID": 2,
+          "userId": 3,
+          "text": "Can you bring me back a left-handed unicorn from that universe? Sounds like a wild place!",
+          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+        }
+      ]
+    },
+    {
+      "postID": 2,
+      "userId": 3,
+      "content": "Invented a new dance move called the 'Funky Penguin Shuffle.' Warning: May attract actual penguins.",
+      "post_rating": [4, 5, 3],
+      "comments": [
+        {
+          "commentID": 3,
+          "userId": 4,
+          "text": "Dancing with penguins? Count me in! Do they have a signature move too?",
+          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+        },
+        {
+          "commentID": 4,
+          "userId": 5,
+          "text": "I hope the penguins have good rhythm; otherwise, it might turn into a waddle-off!",
+          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+        }
+        /// More comments... ///
+      ]
+    },
+    {
+      "postID": 3,
+      "userId": 5,
+      "content": "Tried to teach my goldfish how to breakdance. It just floated there, unimpressed. #FishFlop",
+      "post_rating": [4, 5, 3],
+      "comments": [
+        {
+          "commentID": 5,
+          "userId": 6,
+          "text": "Maybe the goldfish is more into synchronized swimming. #FishFunk",
+          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+        },
+        {
+          "commentID": 6,
+          "userId": 7,
+          "text": "You might need to upgrade to a hip-hop-loving betta fish for those breakdance lessons!",
+          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+        }
+        /// More comments... ///
+      ]
+    },
+    {
+      "postID": 4,
+      "userId": 7,
+      "content": "Started a club for people who believe in the existence of left-handed unicorns. Meetings are on Tuesdays.",
+      "post_rating": [4, 5, 3],
+      "comments": [
+        {
+          "commentID": 7,
+          "userId": 8,
+          "text": "Left-handed unicorns? Count me in! Are there secret handshakes or hooves-shakes?",
+          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+        },
+        {
+          "commentID": 8,
+          "userId": 9,
+          "text": "I've always suspected unicorns had a preference. Lefties unite!",
+          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+        }
+        /// More comments... ///
+      ]
+    },
+    {
+      "postID": 5,
+      "userId": 9,
+      "content": "Accidentally wore my shoes on my hands today. High-fived the ground several times. #UpsideDownDay",
+      "post_rating": [4, 5, 3],
+      "comments": [
+        {
+          "commentID": 9,
+          "userId": 10,
+          "text": "Ground high-fives? That's a new level of connection. #UpsideDownGreetings",
+          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+        },
+        {
+          "commentID": 10,
+          "userId": 1,
+          "text": "You've officially turned the world upside down... or at least your day!",
+          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+        }
+        /// More comments... ///
+      ]
+    },
+    {
+      "postID": 6,
+      "userId": 2,
+      "content": "Decided to communicate exclusively in interpretive dance. The neighbors seem confused, but interpretively intrigued.",
+      "post_rating": [4, 5, 3],
+      "comments": [
+        {
+          "commentID": 11,
+          "userId": 3,
+          "text": "I hope your neighbors appreciate the art of interpretive dance language!",
+          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+        },
+        {
+          "commentID": 12,
+          "userId": 4,
+          "text": "Do you have a dance move for 'I'm out of milk'? It could come in handy.",
+          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+        }
+        /// More comments... ///
+      ]
+    },
+    {
+      "postID": 7,
+      "userId": 4,
+      "content": "Found a genie lamp but my wishes were limited to endless spaghetti and a talking sock puppet named Sir Chuckles.",
+      "post_rating": [4, 5, 3],
+      "comments": [
+        {
+          "commentID": 13,
+          "userId": 5,
+          "text": "Spaghetti wishes? That's a carb-loaded dream come true! Sir Chuckles must be a great conversationalist.",
+          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+        },
+        {
+          "commentID": 14,
+          "userId": 6,
+          "text": "If you had one more wish, would it be for meatballs to go with that endless spaghetti?",
+          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+        }
+        /// More comments... ///
+      ]
+    },
+    {
+      "postID": 8,
+      "userId": 6,
+      "content": "Attempted to teach my pet rock how to roll. It's still contemplating the meaning of 'movement.'",
+      "post_rating": [4, 5, 3],
+      "comments": [
+        {
+          "commentID": 15,
+          "userId": 7,
+          "text": "Deep thoughts from the pet rock. Maybe it's on a philosophical journey?",
+          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+        },
+        {
+          "commentID": 16,
+          "userId": 8,
+          "text": "I bet your rock is the most contemplative one in the neighborhood.",
+          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+        }
+        /// More comments... ///
+      ]
+    },
+    {
+      "postID": 9,
+      "userId": 8,
+      "content": "Launched a hotline for people who need advice from my wise cat, Professor Whiskerstein. #CatCounseling",
+      "post_rating": [4, 5, 3],
+      "comments": [
+        {
+          "commentID": 17,
+          "userId": 9,
+          "text": "Is Professor Whiskerstein taking appointments? I have a pressing feline-related dilemma!",
+          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+        },
+        {
+          "commentID": 18,
+          "userId": 10,
+          "text": "Do you offer group therapy for cats with conflicting nap schedules?",
+          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+        }
+        /// More comments... ///
+      ]
+    },
+    {
+      "postID": 10,
+      "userId": 10,
+      "content": "Invented a language where every word is a combination of meows, quacks, and kazoo sounds. It's surprisingly expressive.",
+      "post_rating": [4, 5, 3],
+      "comments": [
+        {
+          "commentID": 19,
+          "userId": 1,
+          "text": "I bet it's a symphony of communication! Can you share a meowquackazoo phrase with us?",
+          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+        },
+        {
+          "commentID": 20,
+          "userId": 2,
+          "text": "Finally, a language I can fluently speak! Meowquackazoo language exchange, anyone?",
+          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+        }
+        /// More comments... ///
+      ]
+    },
+    {
+      "postID": 11,
+      "userId": 2,
+      "content": "Started a global movement to replace handshakes with synchronized jazz hands. #JazzHandRevolution",
+      "post_rating": [4, 5, 3],
+      "comments": [
+        {
+          "commentID": 21,
+          "userId": 3,
+          "text": "I've been practicing my jazz hands for years! Count me in for the revolution. 🕺",
+          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+        },
+        {
+          "commentID": 22,
+          "userId": 4,
+          "text": "I've been practicing my jazz hands for years! Count me in for the revolution. 🕺",
+          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+        }
+        /// More comments... ///
+      ]
+    },
+    {
+      "postID": 12,
+      "userId": 4,
+      "content": "Organized a pillow fight flash mob in the library. The librarian joined in, armed with an encyclopedia shield.",
+      "post_rating": [4, 5, 3],
+      "comments": [
+        {
+          "commentID": 23,
+          "userId": 5,
+          "text": "Librarians with encyclopedia shields? That's my kind of flash mob! #BookishBattles",
+          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+        },
+        {
+          "commentID": 24,
+          "userId": 6,
+          "text": "I hope the Dewey Decimal System survived the pillow fight. Epic library adventure!",
+          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+        }
+        /// More comments... ///
+      ]
+    },
+    {
+      "postID": 13,
+      "userId": 6,
+      "content": "Taught my toaster to recite Shakespearean sonnets. Now breakfast is a poetic experience.",
+      "post_rating": [4, 5, 3],
+      "comments": [
+        {
+          "commentID": 25,
+          "userId": 7,
+          "text": "To toast or not to toast, that is the question. Your breakfast is truly Shakespearean! 🍞📜",
+          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+        },
+        {
+          "commentID": 26,
+          "userId": 8,
+          "text": "Do you have a favorite sonnet your toaster recites? Breakfast with a side of culture!",
+          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+        }
+        /// More comments... ///
+      ]
+    },
+    {
+      "postID": 14,
+      "userId": 8,
+      "content": "Designed a rocket-powered pogo stick for commuting to work. Still working on the landing strategy.",
+      "post_rating": [4, 5, 3],
+      "comments": [
+        {
+          "commentID": 27,
+          "userId": 9,
+          "text": "Rocket-powered pogo stick? That's a commute I'd love to see! 🚀",
+          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+        },
+        {
+          "commentID": 28,
+          "userId": 10,
+          "text": "I hope the landing strategy involves a giant foam pit. Safety first on the intergalactic commute!",
+          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+        }
+        /// More comments... ///
+      ]
+    },
+    {
+      "postID": 15,
+      "userId": 10,
+      "content": "Opened a bakery that exclusively sells levitating cupcakes. Customers are over the moon about them.",
+      "post_rating": [4, 5, 3],
+      "comments": [
+        {
+          "commentID": 29,
+          "userId": 1,
+          "text": "Levitating cupcakes? That's a whole new level of sweetness! How do they taste, out of this world?",
+          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+        },
+        {
+          "commentID": 30,
+          "userId": 2,
+          "text": "Do they come with anti-gravity frosting? I need these cupcakes in my life!",
+          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+        }
+        /// More comments... ///
+      ]
+    },
+    {
+      "postID": 16,
+      "userId": 1,
+      "content": "Created a support group for people addicted to collecting rubber ducks. We meet in a giant bathtub.",
+      "post_rating": [4, 5, 3],
+      "comments": [
+        {
+          "commentID": 31,
+          "userId": 2,
+          "text": "Rubber duck collectors unite! Can I bring my rare sparkly one to the next meeting? 🛁🦆",
+          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+        },
+        {
+          "commentID": 32,
+          "userId": 3,
+          "text": "I've been hiding my rubber duck addiction for too long. Count me in for the bathtub confessions!",
+          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+        }
+        /// More comments... ///
+      ]
+    },
+    {
+      "postID": 17,
+      "userId": 3,
+      "content": "Attempted to break the world record for the longest time spent juggling watermelons. It ended in a fruity explosion.",
+      "post_rating": [4, 5, 3],
+      "comments": [
+        {
+          "commentID": 33,
+          "userId": 4,
+          "text": "Fruity explosion? That's a melon of a story! Did you at least break the record for most laughs?",
+          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+        },
+        {
+          "commentID": 34,
+          "userId": 5,
+          "text": "Juggling watermelons is a risky business. Do you have plans for your next fruit-based challenge?",
+          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+        }
+        /// More comments... ///
+      ]
+    },
+    {
+      "postID": 18,
+      "userId": 5,
+      "content": "Started a band that only plays music using kitchen utensils. Our hit single: 'Spatula Serenade.'",
+      "post_rating": [4, 5, 3],
+      "comments": [
+        {
+          "commentID": 35,
+          "userId": 6,
+          "text": "Spatula Serenade sounds like a chart-topper! Can I join as the triangle player?",
+          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+        },
+        {
+          "commentID": 36,
+          "userId": 7,
+          "text": "I see a kitchen utensil revolution in the music industry. When's the album dropping?",
+          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+        }
+        /// More comments... ///
+      ]
+    },
+    {
+      "postID": 19,
+      "userId": 7,
+      "content": "Decided to speak in rhymes for an entire day. It was tricky, but it made mundane tasks more poetic.",
+      "post_rating": [4, 5, 3],
+      "comments": [
+        {
+          "commentID": 37,
+          "userId": 8,
+          "text": "Rhyming all day? That's quite the poetic feat! What was your favorite rhyme of the day?",
+          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+        },
+        {
+          "commentID": 38,
+          "userId": 9,
+          "text": "Did you manage to rhyme your way through a grocery list? Poetry in the produce aisle!",
+          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+        }
+        /// More comments... ///
+      ]
+    },
+    {
+      "postID": 20,
+      "userId": 9,
+      "content": "Launched a fashion line inspired by circus clowns. Stripes, polka dots, and oversized shoes are the new trend.",
+      "post_rating": [4, 5, 3],
+      "comments": [
+        {
+          "commentID": 39,
+          "userId": 10,
+          "text": "Clown chic is the new black! Where can I get the latest oversized shoe fashion?",
+          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+        },
+        {
+          "commentID": 40,
+          "userId": 1,
+          "text": "Finally, a fashion trend that matches my sense of humor. Are red noses included in the collection?",
+          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+        }
+        /// More comments... ///
+      ]
+    }
+    /// More posts... ///
+  ]
+}

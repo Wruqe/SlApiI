@@ -1,0 +1,95 @@
+{
+  "users": [
+    {
+      "userId": 1,
+      "username": "WhimsyMaster",
+      "password": "SillyPass123", /// Store hashed passords for security ///
+      "email": "whimsymaster@example.com",
+      "posts": [1, 2], /// Array of postIds created by the user ///
+      "comments": [3, 5], /// Array of commentIds created by the user ///
+      "post_rating": [4, 5, 3] /// Array of ratings given by the user ///
+    },
+    {
+      "userId": 2,
+      "username": "LaughingLuna",
+      "password": "Giggles456",
+      "email": "laughingluna@gmail.com",
+      "posts": [3],
+      "comments": [1, 2],
+      "post_rating": [4, 2, 5]
+    },
+    {
+      "userId": 3,
+      "username": "QuirkQuester",
+      "password": "JovialPass789",
+      "email": "quirkquester@hotmail.com",
+      "posts": [3],
+      "comments": [1, 2],
+      "post_rating": [4, 2, 5]
+    },
+    {
+      "userId": 4,
+      "username": "ChuckleChampion",
+      "password": "WackyCode987",
+      "email": "chucklechampion@yahoo.com",
+      "posts": [3],
+      "comments": [1, 2],
+      "post_rating": [4, 2, 5]
+    },
+    {
+      "userId": 5,
+      "username": "JestJester",
+      "password": "Zany123Pass",
+      "email": "jestjester@outlook.com",
+      "posts": [3],
+      "comments": [1, 2],
+      "post_rating": [4, 2, 5]
+    },
+    {
+      "userId": 6,
+      "username": "MirthfulMingle",
+      "password": "Joyful456Code",
+      "email": "mirthfulmingle@gmail.com",
+      "posts": [3],
+      "comments": [1, 2],
+      "post_rating": [4, 2, 5]
+    },
+    {
+      "userId": 7,
+      "username": "GuffawGuru",
+      "password": "SnickerPass789",
+      "email": "guffawguru@example.com",
+      "posts": [3],
+      "comments": [1, 2],
+      "post_rating": [4, 2, 5]
+    },
+    {
+      "userId": 8,
+      "username": "WhoopeeWizard",
+      "password": "Hilarious987Key",
+      "email": "whoopeewizard@yahoo.com",
+      "posts": [3],
+      "comments": [1, 2],
+      "post_rating": [4, 2, 5]
+    },
+    {
+      "userId": 9,
+      "username": "GleefulGiggler",
+      "password": "FunTime123Pass",
+      "email": "gleefulgiggler@hotmail.com",
+      "posts": [3],
+      "comments": [1, 2],
+      "post_rating": [4, 2, 5]
+    },
+    {
+      "userId": 10,
+      "username": "SnickerSage",
+      "password": "JollyPass456",
+      "email": "snickersage@outlook.com",
+      "posts": [3],
+      "comments": [1, 2],
+      "post_rating": [4, 2, 5]
+    }
+    /// More users... ///
+  ]
+}
