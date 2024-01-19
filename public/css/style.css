@@ -1,0 +1,33 @@
+const styles = stylex.create({
+  base: {
+    position: 'absolute',
+    top: 0,
+    start: 0,
+    end: 0,
+    bottom: 0
+  },
+  active: {
+    position: 'static',
+  }
+});
+
+<div className={stylex(styles.base, isActive && styles.active}/>
+.position-abs {
+  position: absolute;
+}
+.top-0 {top: 0; }
+.start-0 {left: 0; }
+.end-0 {right: 0; }
+.bottom-0 {bottom: 0; }
+.position-st {
+  position: 'static';
+}
+<div
+  className="
+    position-abs
+    top-0
+    start-0
+    end-0
+    bottom-0
+  "
+/>
