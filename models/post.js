@@ -31,7 +31,7 @@ Post.init(
       },
     },
     post_rating: {
-      type: DataTypes.DECIMAL(3, 2), 
+      type: DataTypes.INTEGER, 
       allowNull: true, // Allow null values for post_rating
     },
   },
