@@ -1,0 +1,15 @@
+<div class="text-center">
+  <h2>{{name}}</h2>
+  <p>{{description}}</p>
+  <p>Created by {{user.name}} on {{format_date date_created}}</p>
+  <p>
+    {{!-- <p>{{{ GET RATING}}}</p> --}}
+    <span for="img" aria-label="stars">🌟</span>
+    <span class="dollar-amount">{{format_amount needed_funding}}</span>
+    needed
+  </p>
+  <p>
+    <p><input type="text"></p>
+    <button class="btn btn-primary">Comment</button>
+  </p>
+</div>
