@@ -1,5 +1,7 @@
 # SlApiI
 
+![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
+
 ## Description
 
 SlAPI, a pun for "Slappy", is a web application that serves as a repository for all things silly and whimsical. Users can explore a collection of funny and quirky data, as well as contribute their own by adding new silly entries.
@@ -8,7 +10,7 @@ Along with these contributions, users can rate other's posts. These ratings calc
 
 ## Tabel of Contents
 
-- [SQL Employee Tracker](#sql-employee-tracker)<br>
+- [SlApiI](#slapii)<br>
 - [Description](#description)<br>
 - [Tabel of Contents](#tabel-of-contents)<br>
 - [User Story](#user-story)<br>
@@ -29,16 +31,16 @@ Along with these contributions, users can rate other's posts. These ratings calc
 
 ## Acceptance Criteria
 
-**GIVEN** **\_\_**
+**GIVEN** a functional web based application for tomfoolery and shennanigans
 
-**WHEN** **\_\_** <br>
-**THEN** **\_\_**
+**WHEN** an account is created <br>
+**THEN** their password is encripted
 
-**WHEN** **\_\_** <br>
-**THEN** **\_\_**
+**WHEN** a user makes a post <br>
+**THEN** othe users can comment on, and rate from 1-5, said post
 
-**WHEN** **\_\_** <br>
-**THEN** **\_\_**
+**WHEN** ratings are given to posts <br>
+**THEN** they are recorded in the database display an average score of the users posts
 
 ## License
 
