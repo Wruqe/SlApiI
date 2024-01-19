@@ -63,7 +63,7 @@ limitations under the License.
 ## Contributing
 
 - Conor Allen
-  - GitHub: [placeholder](https://github.com)
+  - GitHub: [Callen996](https://github.com/callen996)
 - Whitney Simpson
   - GitHub: [Whitney-Simpson](https://github.com/Whitney-Simpson)
 - Ernest Jones
