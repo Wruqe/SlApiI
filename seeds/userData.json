@@ -1,0 +1,95 @@
+{
+  "users": [
+    {
+      "userId": 1,
+      "username": "WhimsyMaster",
+      "password": "SillyPass123", /// Store hashed passords for security ///
+      "email": "whimsymaster@example.com",
+      "posts": [1, 16], /// Array of postIds created by the user ///
+      "comments": [10, 19, 29, 40], /// Array of commentIds created by the user ///
+      "post_rating": [4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3] /// Array of ratings given by the user ///
+    },
+    {
+      "userId": 2,
+      "username": "LaughingLuna",
+      "password": "Giggles456",
+      "email": "laughingluna@gmail.com",
+      "posts": [6, 11],
+      "comments": [1, 20, 30, 31],
+      "post_rating": [4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3]
+    },
+    {
+      "userId": 3,
+      "username": "QuirkQuester",
+      "password": "JovialPass789",
+      "email": "quirkquester@hotmail.com",
+      "posts": [2, 17],
+      "comments": [2, 11, 21, 32],
+      "post_rating": [4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3]
+    },
+    {
+      "userId": 4,
+      "username": "ChuckleChampion",
+      "password": "WackyCode987",
+      "email": "chucklechampion@yahoo.com",
+      "posts": [7, 12],
+      "comments": [3, 12, 22, 33],
+      "post_rating": [4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3]
+    },
+    {
+      "userId": 5,
+      "username": "JestJester",
+      "password": "Zany123Pass",
+      "email": "jestjester@outlook.com",
+      "posts": [3, 18],
+      "comments": [4, 13, 23, 34],
+      "post_rating": [4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3]
+    },
+    {
+      "userId": 6,
+      "username": "MirthfulMingle",
+      "password": "Joyful456Code",
+      "email": "mirthfulmingle@gmail.com",
+      "posts": [8, 13],
+      "comments": [5, 14, 24, 35],
+      "post_rating": [4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3]
+    },
+    {
+      "userId": 7,
+      "username": "GuffawGuru",
+      "password": "SnickerPass789",
+      "email": "guffawguru@example.com",
+      "posts": [4, 19],
+      "comments": [6, 15, 25, 36],
+      "post_rating": [4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3]
+    },
+    {
+      "userId": 8,
+      "username": "WhoopeeWizard",
+      "password": "Hilarious987Key",
+      "email": "whoopeewizard@yahoo.com",
+      "posts": [9, 14],
+      "comments": [7, 16, 26, 37],
+      "post_rating": [4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3]
+    },
+    {
+      "userId": 9,
+      "username": "GleefulGiggler",
+      "password": "FunTime123Pass",
+      "email": "gleefulgiggler@hotmail.com",
+      "posts": [5, 20],
+      "comments": [8, 17, 27, 38],
+      "post_rating": [4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3]
+    },
+    {
+      "userId": 10,
+      "username": "SnickerSage",
+      "password": "JollyPass456",
+      "email": "snickersage@outlook.com",
+      "posts": [10, 15],
+      "comments": [9, 18, 28, 39],
+      "post_rating": [4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3]
+    }
+    /// More users... ///
+  ]
+}
