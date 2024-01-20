@@ -31,8 +31,9 @@ Post.init(
       },
     },
     post_rating: {
-      type: DataTypes.INTEGER, 
+      type: DataTypes.INTEGER,
       allowNull: true, // Allow null values for post_rating
+      defaultValue: 0, // Add a default value (change 0 to your desired default)
     },
   },
   {
