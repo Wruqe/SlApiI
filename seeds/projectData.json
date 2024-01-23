@@ -3,7 +3,8 @@
     {
       "postID": 1,
       "userId": 1,
-      "content": "Just discovered a parallel universe where cats walk humans and demand treats. #UpsideDownPetWorld",
+      "title": "title of Post (So origional!)",
+      "description": "Just discovered a parallel universe where cats walk humans and demand treats. #UpsideDownPetWorld",
       "post_rating": [4, 5, 3],
       "comments": [
         {
@@ -23,7 +24,8 @@
     {
       "postID": 2,
       "userId": 3,
-      "content": "Invented a new dance move called the 'Funky Penguin Shuffle.' Warning: May attract actual penguins.",
+      "title": "title of Post (So origional!)",
+      "description": "Invented a new dance move called the 'Funky Penguin Shuffle.' Warning: May attract actual penguins.",
       "post_rating": [4, 5, 3],
       "comments": [
         {
@@ -44,7 +46,8 @@
     {
       "postID": 3,
       "userId": 5,
-      "content": "Tried to teach my goldfish how to breakdance. It just floated there, unimpressed. #FishFlop",
+      "title": "title of Post (So origional!)",
+      "description": "Tried to teach my goldfish how to breakdance. It just floated there, unimpressed. #FishFlop",
       "post_rating": [4, 5, 3],
       "comments": [
         {
@@ -65,7 +68,8 @@
     {
       "postID": 4,
       "userId": 7,
-      "content": "Started a club for people who believe in the existence of left-handed unicorns. Meetings are on Tuesdays.",
+      "title": "title of Post (So origional!)",
+      "description": "Started a club for people who believe in the existence of left-handed unicorns. Meetings are on Tuesdays.",
       "post_rating": [4, 5, 3],
       "comments": [
         {
@@ -86,7 +90,8 @@
     {
       "postID": 5,
       "userId": 9,
-      "content": "Accidentally wore my shoes on my hands today. High-fived the ground several times. #UpsideDownDay",
+      "title": "title of Post (So origional!)",
+      "description": "Accidentally wore my shoes on my hands today. High-fived the ground several times. #UpsideDownDay",
       "post_rating": [4, 5, 3],
       "comments": [
         {
@@ -107,7 +112,8 @@
     {
       "postID": 6,
       "userId": 2,
-      "content": "Decided to communicate exclusively in interpretive dance. The neighbors seem confused, but interpretively intrigued.",
+      "title": "title of Post (So origional!)",
+      "description": "Decided to communicate exclusively in interpretive dance. The neighbors seem confused, but interpretively intrigued.",
       "post_rating": [4, 5, 3],
       "comments": [
         {
@@ -128,7 +134,8 @@
     {
       "postID": 7,
       "userId": 4,
-      "content": "Found a genie lamp but my wishes were limited to endless spaghetti and a talking sock puppet named Sir Chuckles.",
+      "title": "title of Post (So origional!)",
+      "description": "Found a genie lamp but my wishes were limited to endless spaghetti and a talking sock puppet titled Sir Chuckles.",
       "post_rating": [4, 5, 3],
       "comments": [
         {
@@ -149,7 +156,8 @@
     {
       "postID": 8,
       "userId": 6,
-      "content": "Attempted to teach my pet rock how to roll. It's still contemplating the meaning of 'movement.'",
+      "title": "title of Post (So origional!)",
+      "description": "Attempted to teach my pet rock how to roll. It's still contemplating the meaning of 'movement.'",
       "post_rating": [4, 5, 3],
       "comments": [
         {
@@ -170,7 +178,8 @@
     {
       "postID": 9,
       "userId": 8,
-      "content": "Launched a hotline for people who need advice from my wise cat, Professor Whiskerstein. #CatCounseling",
+      "title": "title of Post (So origional!)",
+      "description": "Launched a hotline for people who need advice from my wise cat, Professor Whiskerstein. #CatCounseling",
       "post_rating": [4, 5, 3],
       "comments": [
         {
@@ -191,7 +200,8 @@
     {
       "postID": 10,
       "userId": 10,
-      "content": "Invented a language where every word is a combination of meows, quacks, and kazoo sounds. It's surprisingly expressive.",
+      "title": "title of Post (So origional!)",
+      "description": "Invented a language where every word is a combination of meows, quacks, and kazoo sounds. It's surprisingly expressive.",
       "post_rating": [4, 5, 3],
       "comments": [
         {
@@ -212,7 +222,8 @@
     {
       "postID": 11,
       "userId": 2,
-      "content": "Started a global movement to replace handshakes with synchronized jazz hands. #JazzHandRevolution",
+      "title": "title of Post (So origional!)",
+      "description": "Started a global movement to replace handshakes with synchronized jazz hands. #JazzHandRevolution",
       "post_rating": [4, 5, 3],
       "comments": [
         {
@@ -233,7 +244,8 @@
     {
       "postID": 12,
       "userId": 4,
-      "content": "Organized a pillow fight flash mob in the library. The librarian joined in, armed with an encyclopedia shield.",
+      "title": "title of Post (So origional!)",
+      "description": "Organized a pillow fight flash mob in the library. The librarian joined in, armed with an encyclopedia shield.",
       "post_rating": [4, 5, 3],
       "comments": [
         {
@@ -254,7 +266,8 @@
     {
       "postID": 13,
       "userId": 6,
-      "content": "Taught my toaster to recite Shakespearean sonnets. Now breakfast is a poetic experience.",
+      "title": "title of Post (So origional!)",
+      "description": "Taught my toaster to recite Shakespearean sonnets. Now breakfast is a poetic experience.",
       "post_rating": [4, 5, 3],
       "comments": [
         {
@@ -275,7 +288,8 @@
     {
       "postID": 14,
       "userId": 8,
-      "content": "Designed a rocket-powered pogo stick for commuting to work. Still working on the landing strategy.",
+      "title": "title of Post (So origional!)",
+      "description": "Designed a rocket-powered pogo stick for commuting to work. Still working on the landing strategy.",
       "post_rating": [4, 5, 3],
       "comments": [
         {
@@ -296,7 +310,8 @@
     {
       "postID": 15,
       "userId": 10,
-      "content": "Opened a bakery that exclusively sells levitating cupcakes. Customers are over the moon about them.",
+      "title": "title of Post (So origional!)",
+      "description": "Opened a bakery that exclusively sells levitating cupcakes. Customers are over the moon about them.",
       "post_rating": [4, 5, 3],
       "comments": [
         {
@@ -317,7 +332,8 @@
     {
       "postID": 16,
       "userId": 1,
-      "content": "Created a support group for people addicted to collecting rubber ducks. We meet in a giant bathtub.",
+      "title": "title of Post (So origional!)",
+      "description": "Created a support group for people addicted to collecting rubber ducks. We meet in a giant bathtub.",
       "post_rating": [4, 5, 3],
       "comments": [
         {
@@ -338,7 +354,8 @@
     {
       "postID": 17,
       "userId": 3,
-      "content": "Attempted to break the world record for the longest time spent juggling watermelons. It ended in a fruity explosion.",
+      "title": "title of Post (So origional!)",
+      "description": "Attempted to break the world record for the longest time spent juggling watermelons. It ended in a fruity explosion.",
       "post_rating": [4, 5, 3],
       "comments": [
         {
@@ -359,7 +376,8 @@
     {
       "postID": 18,
       "userId": 5,
-      "content": "Started a band that only plays music using kitchen utensils. Our hit single: 'Spatula Serenade.'",
+      "title": "title of Post (So origional!)",
+      "description": "Started a band that only plays music using kitchen utensils. Our hit single: 'Spatula Serenade.'",
       "post_rating": [4, 5, 3],
       "comments": [
         {
@@ -380,7 +398,8 @@
     {
       "postID": 19,
       "userId": 7,
-      "content": "Decided to speak in rhymes for an entire day. It was tricky, but it made mundane tasks more poetic.",
+      "title": "title of Post (So origional!)",
+      "description": "Decided to speak in rhymes for an entire day. It was tricky, but it made mundane tasks more poetic.",
       "post_rating": [4, 5, 3],
       "comments": [
         {
@@ -401,7 +420,8 @@
     {
       "postID": 20,
       "userId": 9,
-      "content": "Launched a fashion line inspired by circus clowns. Stripes, polka dots, and oversized shoes are the new trend.",
+      "title": "title of Post (So origional!)",
+      "description": "Launched a fashion line inspired by circus clowns. Stripes, polka dots, and oversized shoes are the new trend.",
       "post_rating": [4, 5, 3],
       "comments": [
         {
