@@ -19,10 +19,12 @@ User.init(
     first_name: {
       type: DataTypes.STRING,
       allowNull: false,
+      defaultValue: 'SillyLand',
     },
     last_name: {
       type: DataTypes.STRING,
       allowNull: false,
+      defaultValue: 'Bot',
     },
     user_name: {
       type: DataTypes.STRING,
