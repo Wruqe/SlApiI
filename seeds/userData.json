@@ -3,12 +3,12 @@
     {
       "userId": 1,
       "username": "WhimsyMaster",
-      "password": "SillyPass123", /// Store hashed passords for security ///
+      "password": "SillyPass123", 
       "email": "whimsymaster@example.com",
       "imageUrl": "public/images/pP3.jpeg",
-      "posts": [1, 16], /// Array of postIds created by the user ///
-      "comments": [10, 19, 29, 40], /// Array of commentIds created by the user ///
-      "post_rating": [4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3] /// Array of ratings given by the user ///
+      "posts": [1, 16], 
+      "comments": [10, 19, 29, 40], 
+      "post_rating": [4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3] 
     },
     {
       "userId": 2,
@@ -100,6 +100,6 @@
       "comments": [9, 18, 28, 39],
       "post_rating": [4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3]
     }
-    /// More users... ///
+  
   ]
 }

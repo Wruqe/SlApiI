@@ -10,13 +10,13 @@
           "commentID": 1,
           "userId": 2,
           "text": "Do they have catnip there? Asking for a friend in this universe. 😺",
-          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+          "post_rating": [5, 4, 3] 
         },
         {
           "commentID": 2,
           "userId": 3,
           "text": "Can you bring me back a left-handed unicorn from that universe? Sounds like a wild place!",
-          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+          "post_rating": [5, 4, 3] 
         }
       ]
     },
@@ -30,15 +30,15 @@
           "commentID": 3,
           "userId": 4,
           "text": "Dancing with penguins? Count me in! Do they have a signature move too?",
-          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+          "post_rating": [5, 4, 3] 
         },
         {
           "commentID": 4,
           "userId": 5,
           "text": "I hope the penguins have good rhythm; otherwise, it might turn into a waddle-off!",
-          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+          "post_rating": [5, 4, 3] 
         }
-        /// More comments... ///
+        
       ]
     },
     {
@@ -51,15 +51,15 @@
           "commentID": 5,
           "userId": 6,
           "text": "Maybe the goldfish is more into synchronized swimming. #FishFunk",
-          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+          "post_rating": [5, 4, 3] 
         },
         {
           "commentID": 6,
           "userId": 7,
           "text": "You might need to upgrade to a hip-hop-loving betta fish for those breakdance lessons!",
-          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+          "post_rating": [5, 4, 3] 
         }
-        /// More comments... ///
+       
       ]
     },
     {
@@ -72,15 +72,15 @@
           "commentID": 7,
           "userId": 8,
           "text": "Left-handed unicorns? Count me in! Are there secret handshakes or hooves-shakes?",
-          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+          "post_rating": [5, 4, 3] 
         },
         {
           "commentID": 8,
           "userId": 9,
           "text": "I've always suspected unicorns had a preference. Lefties unite!",
-          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+          "post_rating": [5, 4, 3] 
         }
-        /// More comments... ///
+        
       ]
     },
     {
@@ -93,15 +93,15 @@
           "commentID": 9,
           "userId": 10,
           "text": "Ground high-fives? That's a new level of connection. #UpsideDownGreetings",
-          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+          "post_rating": [5, 4, 3] 
         },
         {
           "commentID": 10,
           "userId": 1,
           "text": "You've officially turned the world upside down... or at least your day!",
-          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+          "post_rating": [5, 4, 3] 
         }
-        /// More comments... ///
+        
       ]
     },
     {
@@ -114,15 +114,15 @@
           "commentID": 11,
           "userId": 3,
           "text": "I hope your neighbors appreciate the art of interpretive dance language!",
-          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+          "post_rating": [5, 4, 3] 
         },
         {
           "commentID": 12,
           "userId": 4,
           "text": "Do you have a dance move for 'I'm out of milk'? It could come in handy.",
-          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+          "post_rating": [5, 4, 3] 
         }
-        /// More comments... ///
+        
       ]
     },
     {
@@ -135,15 +135,15 @@
           "commentID": 13,
           "userId": 5,
           "text": "Spaghetti wishes? That's a carb-loaded dream come true! Sir Chuckles must be a great conversationalist.",
-          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+          "post_rating": [5, 4, 3] 
         },
         {
           "commentID": 14,
           "userId": 6,
           "text": "If you had one more wish, would it be for meatballs to go with that endless spaghetti?",
-          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+          "post_rating": [5, 4, 3] 
         }
-        /// More comments... ///
+        
       ]
     },
     {
@@ -156,15 +156,15 @@
           "commentID": 15,
           "userId": 7,
           "text": "Deep thoughts from the pet rock. Maybe it's on a philosophical journey?",
-          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+          "post_rating": [5, 4, 3] 
         },
         {
           "commentID": 16,
           "userId": 8,
           "text": "I bet your rock is the most contemplative one in the neighborhood.",
-          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+          "post_rating": [5, 4, 3] 
         }
-        /// More comments... ///
+        
       ]
     },
     {
@@ -177,15 +177,15 @@
           "commentID": 17,
           "userId": 9,
           "text": "Is Professor Whiskerstein taking appointments? I have a pressing feline-related dilemma!",
-          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+          "post_rating": [5, 4, 3] 
         },
         {
           "commentID": 18,
           "userId": 10,
           "text": "Do you offer group therapy for cats with conflicting nap schedules?",
-          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+          "post_rating": [5, 4, 3] 
         }
-        /// More comments... ///
+        
       ]
     },
     {
@@ -198,15 +198,15 @@
           "commentID": 19,
           "userId": 1,
           "text": "I bet it's a symphony of communication! Can you share a meowquackazoo phrase with us?",
-          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+          "post_rating": [5, 4, 3] 
         },
         {
           "commentID": 20,
           "userId": 2,
           "text": "Finally, a language I can fluently speak! Meowquackazoo language exchange, anyone?",
-          "post_rating": [5, 4, 3] /// Ratings given to this comment ///
+          "post_rating": [5, 4, 3] 
         }
-        /// More comments... ///
+        
       ]
     },
     {
