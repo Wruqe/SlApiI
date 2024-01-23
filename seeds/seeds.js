@@ -8,11 +8,10 @@ const projectData = require("./projectData.json");
 const seedDatabase = async () => {
   await sequelize.sync({ force: true });
 
-    // Seed users with images
   const users = await User.bulkCreate(
     userData.users.map((user) => ({
       ...user,
-      imageUrl: `/images/${user.imageUrl}`, // Assuming imageUrl is the property holding the image file name
+      imageUrl: `/images/${user.imageUrl}`,
     })),
     {
       individualHooks: true,
@@ -20,7 +19,6 @@ const seedDatabase = async () => {
     }
   );
 
-  // Seed posts, comments, and associate with users
   for (const postData of projectData.posts) {
     const userIndex = Math.floor(Math.random() * users.length);
     const user = users[userIndex];
@@ -28,10 +26,9 @@ const seedDatabase = async () => {
     const post = await Post.create({
       ...postData,
       userId: user.id,
-      imageUrl: `/images/${postData.imageFileName}`, // Adjust this based on your project structure
+      imageUrl: `/images/${postData.imageFileName}`,
     });
 
-    // Seed comments and associate with posts
     for (const commentData of postData.comments) {
       await Comment.create({
         ...commentData,
