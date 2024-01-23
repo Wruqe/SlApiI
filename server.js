@@ -42,6 +42,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(routes);
 
+// Serve static files from the 'public' folder (Heinz Add-on)
+app.use('/images', express.static(path.join(__dirname, 'public/images')));
+
+
 sequelize.sync({ force: false }).then(() => {
-  app.listen(PORT, () => console.log('Now listening'));
+  app.listen(PORT, () => console.log('http://localhost:3001'));
 });
