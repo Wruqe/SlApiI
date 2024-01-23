@@ -14,4 +14,4 @@ router.use('/posts', postRoutes);
 
 
 
-module.exports = router
+module.exports = router;
