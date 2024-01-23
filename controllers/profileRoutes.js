@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const { User, Post } = require('../models');
-const withAuth = require('../utility/auth');
+const withAuth = require('../utils/auth');
 
 
 router.get('/profile', withAuth, async (req, res) => {
@@ -21,3 +21,5 @@ router.get('/profile', withAuth, async (req, res) => {
       res.status(500).json(err);
     }
   });
+
+  module.exports = router;
