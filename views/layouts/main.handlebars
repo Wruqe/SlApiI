@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SlAPI</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/jass.css">
   <link rel="stylesheet" href="/css/style.css">
 </head>
@@ -23,6 +24,7 @@
         <button class="no-button" id="logout">logout</button>
         {{else}}
         <a href="/login">login</a>
+        <button id="openChat">Chat</button>
         {{/if}}
       </nav>
     </header>
@@ -33,6 +35,11 @@
     <footer>
       
     </footer>
+    <script>
+       document.getElementById('openChat').addEventListener('click', function () {
+        document.querySelector('#chat').removeAttribute('class');
+       })
+    </script>
   </div>
 
   <!-- Render script for logged in users only -->

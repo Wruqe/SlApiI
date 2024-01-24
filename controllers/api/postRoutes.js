@@ -10,7 +10,7 @@ router.get('/', (req, res) => {
 router.post('/', (req, res)=>{
     const postObject = {
         content: req.body.content,
-        userId: req.session.userId
+        userId: req.session.user_id
     }
     Post.create(postObject).then(postData => {
         res.json(postData)
