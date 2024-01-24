@@ -1,8 +1,8 @@
 {
   "users": [
     {
-      "userId": 1,
-      "username": "WhimsyMaster",
+      "id": 1,
+      "user_name": "WhimsyMaster",
       "password": "SillyPass123",
       "email": "whimsymaster@example.com",
       "imageUrl": "public/images/pP3.jpeg",
@@ -11,8 +11,8 @@
       "post_rating": [4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3]
     },
     {
-      "userId": 2,
-      "username": "LaughingLuna",
+      "id": 2,
+      "user_name": "LaughingLuna",
       "password": "Giggles456",
       "email": "laughingluna@gmail.com",
       "imageUrl": "public/images/pP6.jpeg",
@@ -21,8 +21,8 @@
       "post_rating": [4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3]
     },
     {
-      "userId": 3,
-      "username": "QuirkQuester",
+      "id": 3,
+      "user_name": "QuirkQuester",
       "password": "JovialPass789",
       "email": "quirkquester@hotmail.com",
       "imageUrl": "public/images/pP9.jpeg",
@@ -31,8 +31,8 @@
       "post_rating": [4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3]
     },
     {
-      "userId": 4,
-      "username": "ChuckleChampion",
+      "id": 4,
+      "user_name": "ChuckleChampion",
       "password": "WackyCode987",
       "email": "chucklechampion@yahoo.com",
       "imageUrl": "public/images/pP12.jpeg",
@@ -41,8 +41,8 @@
       "post_rating": [4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3]
     },
     {
-      "userId": 5,
-      "username": "JestJester",
+      "id": 5,
+      "user_name": "JestJester",
       "password": "Zany123Pass",
       "email": "jestjester@outlook.com",
       "imageUrl": "public/images/pP15.jpeg",
@@ -51,8 +51,8 @@
       "post_rating": [4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3]
     },
     {
-      "userId": 6,
-      "username": "MirthfulMingle",
+      "id": 6,
+      "user_name": "MirthfulMingle",
       "password": "Joyful456Code",
       "email": "mirthfulmingle@gmail.com",
       "imageUrl": "public/images/pP18.jpeg",
@@ -61,8 +61,8 @@
       "post_rating": [4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3]
     },
     {
-      "userId": 7,
-      "username": "GuffawGuru",
+      "id": 7,
+      "user_name": "GuffawGuru",
       "password": "SnickerPass789",
       "email": "guffawguru@example.com",
       "imageUrl": "public/images/pP21.jpeg",
@@ -71,8 +71,8 @@
       "post_rating": [4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3]
     },
     {
-      "userId": 8,
-      "username": "WhoopeeWizard",
+      "id": 8,
+      "user_name": "WhoopeeWizard",
       "password": "Hilarious987Key",
       "email": "whoopeewizard@yahoo.com",
       "imageUrl": "public/images/pP24.jpeg",
@@ -81,8 +81,8 @@
       "post_rating": [4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3]
     },
     {
-      "userId": 9,
-      "username": "GleefulGiggler",
+      "id": 9,
+      "user_name": "GleefulGiggler",
       "password": "FunTime123Pass",
       "email": "gleefulgiggler@hotmail.com",
       "imageUrl": "public/images/pP25.jpeg",
@@ -91,8 +91,8 @@
       "post_rating": [4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3]
     },
     {
-      "userId": 10,
-      "username": "SnickerSage",
+      "id": 10,
+      "user_name": "SnickerSage",
       "password": "JollyPass456",
       "email": "snickersage@outlook.com",
       "imageUrl": "public/images/pP28.jpeg",
