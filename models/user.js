@@ -1,6 +1,7 @@
 const { Model, DataTypes } = require("sequelize");
 const bcrypt = require("bcrypt");
 const sequelize = require("../config/connection");
+const Rating = require("./Rating");
 
 class User extends Model {
   checkPassword(loginPw) {
@@ -67,5 +68,12 @@ User.init(
     modelName: "user",
   }
 );
+
+User.associate = (models) => {
+  User.hasMany(models.Rating, {
+    foreignKey: "user_id",
+    onDelete: "CASCADE",
+  });
+};
 
 module.exports = User;

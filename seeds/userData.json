@@ -1,47 +1,58 @@
- [
-    {
-      "first_name": "JJJJ",
-      "last_name": "JJJ",
-      "user_name": "WhimsyMaster",
-      "password": "SillyPass123",
-      "email": "whimsymaster@example.com",
-      "imageUrl": "public/images/pP3.jpeg",
-      "posts": [1, 16],
-      "comments": [10, 19, 29, 40],
-      "post_rating": [4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3]
-    },
-    {
-      "first_name": "LLL",
-      "last_name": "LLL",
-      "user_name": "LaughingLuna",
-      "password": "Giggles456",
-      "email": "laughingluna@gmail.com",
-      "imageUrl": "public/images/pP6.jpeg",
-      "posts": [6, 11],
-      "comments": [1, 20, 30, 31],
-      "post_rating": [4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3]
-    },
-    {
-      "first_name": "PPP",
-      "last_name": "PPP",
-      "user_name": "QuirkQuester",
-      "password": "JovialPass789",
-      "email": "quirkquester@hotmail.com",
-      "imageUrl": "public/images/pP9.jpeg",
-      "posts": [2, 17],
-      "comments": [2, 11, 21, 32],
-      "post_rating": [4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3]
-    },
-    {
-      "first_name": "OOO",
-      "last_name": "OOO",
-      "user_name": "ChuckleChampion",
-      "password": "WackyCode987",
-      "email": "chucklechampion@yahoo.com",
-      "imageUrl": "public/images/pP12.jpeg",
-      "posts": [7, 12],
-      "comments": [3, 12, 22, 33],
-      "post_rating": [4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3]
-    }
-  ]
-
+[
+  {
+    "first_name": "JJJJ",
+    "last_name": "JJJ",
+    "user_name": "WhimsyMaster",
+    "password": "SillyPass123",
+    "email": "whimsymaster@example.com",
+    "imageUrl": "public/images/pP3.jpeg",
+    "posts": [1, 16],
+    "comments": [10, 19, 29, 40],
+    "post_rating": [
+      { "post_id": 1, "rating_value": 4 },
+      { "post_id": 16, "rating_value": 5 }
+    ]
+  },
+  {
+    "first_name": "LLL",
+    "last_name": "LLL",
+    "user_name": "LaughingLuna",
+    "password": "Giggles456",
+    "email": "laughingluna@gmail.com",
+    "imageUrl": "public/images/pP6.jpeg",
+    "posts": [6, 11],
+    "comments": [1, 20, 30, 31],
+    "post_rating": [
+      { "post_id": 6, "rating_value": 4 },
+      { "post_id": 11, "rating_value": 5 }
+    ]
+  },
+  {
+    "first_name": "PPP",
+    "last_name": "PPP",
+    "user_name": "QuirkQuester",
+    "password": "JovialPass789",
+    "email": "quirkquester@hotmail.com",
+    "imageUrl": "public/images/pP9.jpeg",
+    "posts": [2, 17],
+    "comments": [2, 11, 21, 32],
+    "post_rating": [
+      { "post_id": 2, "rating_value": 4 },
+      { "post_id": 17, "rating_value": 5 }
+    ]
+  },
+  {
+    "first_name": "OOO",
+    "last_name": "OOO",
+    "user_name": "ChuckleChampion",
+    "password": "WackyCode987",
+    "email": "chucklechampion@yahoo.com",
+    "imageUrl": "public/images/pP12.jpeg",
+    "posts": [7, 12],
+    "comments": [3, 12, 22, 33],
+    "post_rating": [
+      { "post_id": 7, "rating_value": 4 },
+      { "post_id": 12, "rating_value": 5 }
+    ]
+  }
+]
