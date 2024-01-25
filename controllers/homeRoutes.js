@@ -1,23 +1,12 @@
 const router = require("express").Router();
-const { User, Rating, Post, Comment } = require('../models');
+const { User, Post, Comment } = require('../models');
 const withAuth = require('../utils/auth');
 
 
 router.get('/', async (req, res) => {
   try {
     const postData = await Post.findAll({
-        include: [{ model: User }, { model: Rating }, {model: Comment }], 
-        // attributes: {
-        //   include: [
-        //     [
-        //       // Use plain SQL to add up average rating
-        //       sequelize.literal(
-        //         '(SELECT AVG(post_rating) FROM ratings WHERE ratings.post_id = post.id)'
-        //       ),
-        //       'averageRating',
-        //     ],
-        //   ],
-        // },
+        include: [{ model: User }, {model: Comment }], 
       });
 
     const posts = postData.map(post => post.get({ plain: true }));
