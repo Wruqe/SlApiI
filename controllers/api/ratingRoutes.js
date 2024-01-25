@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const { Rating, Post } = require("../models"); // Assuming your models are in the '../models' folder
+const { Rating, Post } = require("../../models"); // Assuming your models are in the '../models' folder
 
 // Endpoint to get ratings for a specific post
 router.get("/post/:postId/ratings", async (req, res) => {
@@ -39,3 +39,5 @@ router.post("/post/:postId/ratings", async (req, res) => {
     res.status(500).json({ error: "Internal Server Error" });
   }
 });
+
+module.exports = router
