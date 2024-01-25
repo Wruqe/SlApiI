@@ -1,5 +1,6 @@
 const { Model, DataTypes } = require("sequelize");
 const sequelize = require("../config/connection");
+const Post = require("./Post");
 
 class Rating extends Model {}
 
@@ -26,15 +27,13 @@ Rating.init(
   }
 );
 
+Rating.associate = (models) => {
+  Rating.belongsTo(models.Post, {
+    foreignKey: {
+      name: "post_id",
+      allowNull: false,
+    },
+  });
+};
+
 module.exports = Rating;
-
-Rating.belongsTo(Post, {
-  foreignKey: {
-    name: "post_id",
-    allowNull: false,
-  };
-});
-
-Post.hasMany(Rating, {
-  foreignKey: "post_id",
-});
