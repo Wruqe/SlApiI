@@ -40,4 +40,13 @@ router.post("/post/:postId/ratings", async (req, res) => {
   }
 });
 
-module.exports = router
+router.put("/:postId", async (req, res) => {
+  console.log(req.params.postId);
+  const response = await Post.findOne({ where: { id: req.params.postId } });
+  let lastRating = response.rating;
+  lastRating++;
+  const updatedPost = await Post.update({rating: lastRating}, {where: {id:req.params.postId}})
+  res.json(updatedPost);
+});
+
+module.exports = router;
