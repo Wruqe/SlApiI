@@ -6,11 +6,6 @@
   align-items: center;
   padding: 2rem;
   font-size: xx-large;
-  
-}
-
-header h1 {
-  margin: 0;
 }
 
 header h1 a {
@@ -20,7 +15,6 @@ header h1 a {
   font-weight: 400;
   font-style: normal;
   letter-spacing: 4px;
-  
 }
 
 body header {
@@ -35,6 +29,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 
 .signupLogin {
   color:whitesmoke;
@@ -53,7 +48,7 @@ body {
     display: flex;
     justify-content: space-around;
   }
-  
+
   .column {
     flex: 1;
     margin-right: 100px; /* Adjust as needed for spacing between columns */

@@ -17,16 +17,16 @@
   <div class="flex-column justify-space-around">
     <header class="display-flex justify-space-between align-center p-2">
       <h1>
-        <a href="/">SillyAPI Land</a>
+         <a href="/">SillyAPI Land</a>
       </h1>
       <nav>
         <!-- Conditionally render login or logout links -->
         {{#if logged_in}}
         <a href="/profile">profile</a> |
+        <button id="openChat">Chat</button>
         <button class="no-button" id="logout">logout</button>
         {{else}}
         <a href="/login">login</a>
-        <button id="openChat">Chat</button>
         {{/if}}
       </nav>
     </header>
