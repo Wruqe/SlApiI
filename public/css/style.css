@@ -1,5 +1,10 @@
 .display-flex.justify-space-between.align-center.p-2 {
-  background-color: rgba(255, 255, 255, 0.0); /* Adjust the alpha (fourth value) for transparency */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0
+  ); /* Adjust the alpha (fourth value) for transparency */
   height: 120px;
   display: flex;
   justify-content: space-between;
@@ -15,12 +20,10 @@ header h1 a {
   font-weight: 400;
   font-style: normal;
   letter-spacing: 4px;
-
 }
 
 header h1 a:hover {
-color: whitesmoke;
-
+  color: whitesmoke;
 }
 
 body header {
@@ -30,41 +33,100 @@ body header {
 }
 
 body {
-  background-image: url('https://cdnblog.picsart.com/2020/04/funny-virtual-zoom-background-.jpg');
+  background-image: url("https://cdnblog.picsart.com/2020/04/funny-virtual-zoom-background-.jpg");
   background-size: cover; /* Adjust the background size as needed */
   background-repeat: no-repeat;
   margin: 0;
   padding: 0;
+  height: 100vh;
 }
 
+#input {
+  border: none;
+  padding: 0 1rem;
+  flex-grow: 1;
+  border-radius: 2rem;
+  margin: 0.25rem;
+}
+#input:focus {
+  outline: none;
+}
+
+#form {
+  background: rgba(0, 0, 0, 0.15);
+  padding: 0.25rem;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  width: 600px;
+  height: 3rem;
+  box-sizing: border-box;
+  backdrop-filter: blur(10px);
+}
+
+#form > button {
+  background: #333;
+  border: none;
+  padding: 0 1rem;
+  margin: 0.25rem;
+  border-radius: 3px;
+  outline: none;
+  color: #fff;
+}
+#messages {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#messages > li {
+  padding: 0.5rem 1rem;
+}
+#messages > li:nth-child(odd) {
+  background: #efefef;
+}
+.hide {
+  display: none;
+}
+#chat {
+  position: absolute;
+  width: 600px;
+  height: 300px;
+  bottom: 0;
+  right: 0;
+}
 
 .signupLogin {
-  color:whitesmoke;
-    font-family: "Press Start 2P", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    background-color: rgba(1, 11, 18, 0.8); ; /* Replace with your desired background color */
-    padding: 15px;
-    border-radius: 15px;
-    height: max-content;
-  }
+  color: whitesmoke;
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgba(
+    1,
+    11,
+    18,
+    0.8
+  ); /* Replace with your desired background color */
+  padding: 15px;
+  border-radius: 15px;
+  height: max-content;
+}
 
-  .signupLogin h2 {
-    text-align:center;
-    padding-bottom: 20px;
-  }
+.signupLogin h2 {
+  text-align: center;
+  padding-bottom: 20px;
+}
 
+.row {
+  display: flex;
+  justify-content: space-around;
+}
 
-
-  .row {
-    display: flex;
-    justify-content: space-around;
-  }
-
-  .column {
-    flex: 1;
-    margin-right: 100px; /* Adjust as needed for spacing between columns */
-  }
+.column {
+  flex: 1;
+  margin-right: 100px; /* Adjust as needed for spacing between columns */
+}
 
 .form-input {
   color: black;
