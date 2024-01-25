@@ -42,6 +42,11 @@ body {
     height: max-content;
   }
 
+  .signupLogin h2 {
+    text-align:center;
+    padding-bottom: 20px;
+  }
+
 
 
   .row {
@@ -53,3 +58,7 @@ body {
     flex: 1;
     margin-right: 100px; /* Adjust as needed for spacing between columns */
   }
+
+.form-input {
+  color: black;
+}
