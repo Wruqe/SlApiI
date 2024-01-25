@@ -4,7 +4,7 @@ const withAuth = require('../utils/auth');
 
 
 
-router.get('/profile', async (req, res) => {
+router.get('/', withAuth, async (req, res) => {
 
     try {
       // Find the logged in user based on the session ID
