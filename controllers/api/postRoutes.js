@@ -9,12 +9,21 @@ router.get("/", (req, res) => {
 
 router.post("/", (req, res) => {
   const postObject = {
-    content: req.body.content,
-    userId: req.session.user_id,
+    title: req.body.title,
+    description: req.body.description,
+    user_id: req.session.user_id,
   };
   Post.create(postObject).then((postData) => {
     res.json(postData);
   });
 });
 
-module.exports = router;
+router.delete("/:id", (req, res) => {
+  Post.destroy({ where: { id: req.params.id } }).then((response) => {
+    res.json(response);
+  });
+});
+
+module.exports = router
+
+

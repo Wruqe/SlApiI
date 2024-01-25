@@ -2,12 +2,12 @@ const newFormHandler = async (event) => {
   event.preventDefault();
 
   const title = document.querySelector('#post-title').value.trim();
-  const content = document.querySelector('#post-content').value.trim();
+  const description = document.querySelector('#post-content').value.trim();
 
-  if (title && content) {
+  if (title && description) {
     const response = await fetch(`/api/posts`, {
       method: 'POST',
-      body: JSON.stringify({ title, content}),
+      body: JSON.stringify({ title, description}),
       headers: {
         'Content-Type': 'application/json',
       },
@@ -24,11 +24,11 @@ const newFormHandler = async (event) => {
 const delButtonHandler = async (event) => {
   if (event.target.hasAttribute('data-id')) {
     const id = event.target.getAttribute('data-id');
-
+    console.log(id)
     const response = await fetch(`/api/posts/${id}`, {
       method: 'DELETE',
     });
-
+console.log(response)
     if (response.ok) {
       document.location.replace('/profile');
     } else {
