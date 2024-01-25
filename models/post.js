@@ -30,11 +30,6 @@ Post.init(
         key: "id",
       },
     },
-    post_rating: {
-      type: DataTypes.JSON,
-      allowNull: true, // Allow null values for post_rating
-      defaultValue: 0, // Add a default value (change 0 to your desired default)
-    },
   },
   {
     sequelize,
@@ -46,4 +41,3 @@ Post.init(
 );
 
 module.exports = Post;
-

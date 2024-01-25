@@ -12,7 +12,7 @@ Rating.init(
       autoIncrement: true,
     },
     post_rating: {
-      type: DataTypes.JSON,
+      type: DataTypes.INTEGER,
       allowNull: true, // Allow null values for post_rating
       defaultValue: 0, // Add a default value (change 0 to your desired default)
     },
@@ -27,3 +27,14 @@ Rating.init(
 );
 
 module.exports = Rating;
+
+Rating.belongsTo(Post, {
+  foreignKey: {
+    name: "post_id",
+    allowNull: false,
+  };
+});
+
+Post.hasMany(Rating, {
+  foreignKey: "post_id",
+});
