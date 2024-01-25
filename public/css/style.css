@@ -15,11 +15,18 @@ header h1 a {
   font-weight: 400;
   font-style: normal;
   letter-spacing: 4px;
+
+}
+
+header h1 a:hover {
+color: whitesmoke;
+
 }
 
 body header {
   margin: 0;
   padding: 0;
+  transition: font-size 0.3s ease;
 }
 
 body {
@@ -61,4 +68,13 @@ body {
 
 .form-input {
   color: black;
+}
+
+.login-link {
+  color: whitesmoke;
+  transition: font-size 0.3s ease;
+}
+
+.login-link:hover {
+  color: whitesmoke;
 }
