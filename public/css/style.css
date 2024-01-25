@@ -1,33 +1,58 @@
-const styles = stylex.create({
-  base: {
-    position: 'absolute',
-    top: 0,
-    start: 0,
-    end: 0,
-    bottom: 0
-  },
-  active: {
-    position: 'static',
-  }
-});
+.display-flex.justify-space-between.align-center.p-2 {
+  background-color: rgba(255, 255, 255, 0.0); /* Adjust the alpha (fourth value) for transparency */
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  font-size: xx-large;
 
-<div className={stylex(styles.base, isActive && styles.active}/>
-.position-abs {
-  position: absolute;
 }
-.top-0 {top: 0; }
-.start-0 {left: 0; }
-.end-0 {right: 0; }
-.bottom-0 {bottom: 0; }
-.position-st {
-  position: 'static';
+
+header h1 a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 4px;
+
 }
-<div
-  className="
-    position-abs
-    top-0
-    start-0
-    end-0
-    bottom-0
-  "
+
+body header {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('https://cdnblog.picsart.com/2020/04/funny-virtual-zoom-background-.jpg');
+  background-size: cover; /* Adjust the background size as needed */
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
 />
+
+.signupLogin {
+  color:whitesmoke;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgba(1, 11, 18, 0.8); ; /* Replace with your desired background color */
+    padding: 15px;
+    border-radius: 15px;
+    height: max-content;
+  }
+
+
+
+  .row {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .column {
+    flex: 1;
+    margin-right: 100px; /* Adjust as needed for spacing between columns */
+  }
