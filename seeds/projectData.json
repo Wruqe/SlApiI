@@ -1,42 +1,42 @@
-{
-  "posts": [
+
+[
     {
-      "postID": 1,
-      "userId": 1,
-      "title": "title of Post (So origional!)",
+  
+      "user_id": 1,
+      "name": "name of Post (So origional!)",
       "description": "Just discovered a parallel universe where cats walk humans and demand treats. #UpsideDownPetWorld",
       "post_rating": [4, 5, 3],
       "comments": [
         {
-          "commentID": 1,
-          "userId": 2,
+         
+          "user_id": 2,
           "text": "Do they have catnip there? Asking for a friend in this universe. 😺",
           "post_rating": [5, 4, 3] 
         },
         {
-          "commentID": 2,
-          "userId": 3,
+        
+          "user_id": 3,
           "text": "Can you bring me back a left-handed unicorn from that universe? Sounds like a wild place!",
           "post_rating": [5, 4, 3] 
         }
       ]
     },
     {
-      "postID": 2,
-      "userId": 3,
-      "title": "title of Post (So origional!)",
+      
+      "user_id": 3,
+      "name": "name of Post (So origional!)",
       "description": "Invented a new dance move called the 'Funky Penguin Shuffle.' Warning: May attract actual penguins.",
       "post_rating": [4, 5, 3],
       "comments": [
         {
-          "commentID": 3,
-          "userId": 4,
+        
+          "user_id": 4,
           "text": "Dancing with penguins? Count me in! Do they have a signature move too?",
           "post_rating": [5, 4, 3] 
         },
         {
-          "commentID": 4,
-          "userId": 5,
+         
+          "user_id": 5,
           "text": "I hope the penguins have good rhythm; otherwise, it might turn into a waddle-off!",
           "post_rating": [5, 4, 3] 
         }
@@ -44,21 +44,21 @@
       ]
     },
     {
-      "postID": 3,
-      "userId": 5,
-      "title": "title of Post (So origional!)",
+     
+      "user_id": 5,
+      "name": "name of Post (So origional!)",
       "description": "Tried to teach my goldfish how to breakdance. It just floated there, unimpressed. #FishFlop",
       "post_rating": [4, 5, 3],
       "comments": [
         {
           "commentID": 5,
-          "userId": 6,
+          "user_id": 6,
           "text": "Maybe the goldfish is more into synchronized swimming. #FishFunk",
           "post_rating": [5, 4, 3] 
         },
         {
           "commentID": 6,
-          "userId": 7,
+          "user_id": 7,
           "text": "You might need to upgrade to a hip-hop-loving betta fish for those breakdance lessons!",
           "post_rating": [5, 4, 3] 
         }
@@ -84,7 +84,7 @@
           "text": "I've always suspected unicorns had a preference. Lefties unite!",
           "post_rating": [5, 4, 3] 
         }
- 
+   
       ]
     },
     {
@@ -106,7 +106,7 @@
           "text": "You've officially turned the world upside down... or at least your day!",
           "post_rating": [5, 4, 3] 
         }
-     
+      
       ]
     },
     {
@@ -148,10 +148,10 @@
           "commentID": 14,
           "userId": 6,
           "text": "If you had one more wish, would it be for meatballs to go with that endless spaghetti?",
-          "post_rating": [5, 4, 3] 
+          "post_rating": [5, 4, 3]
         }
-      ]
       
+      ]
     },
     {
       "postID": 8,
@@ -194,7 +194,7 @@
           "text": "Do you offer group therapy for cats with conflicting nap schedules?",
           "post_rating": [5, 4, 3] 
         }
-    
+  
       ]
     },
     {
@@ -440,6 +440,5 @@
       ]
     }
   
-   
   ]
-}
+
