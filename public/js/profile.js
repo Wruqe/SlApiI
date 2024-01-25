@@ -37,10 +37,28 @@ console.log(response)
   }
 };
 
+const rateHandler = async(event) =>{
+  if (event.target.hasAttribute('data-id')) {
+    const id = event.target.getAttribute('data-id');
+    console.log(id)
+    const response = await fetch(`/api/ratings/${id}`, {
+      method: 'PUT',
+    });
+console.log(response)
+    if (response.ok) {
+      document.location.replace('/profile');
+    } else {
+      alert('Failed to rate post');
+    }
+  }
+}
+
 document
   .querySelector('.new-post-form')
   .addEventListener('submit', newFormHandler);
 
 document
-  .querySelector('.posts-list')
+  .querySelector('#delete')
   .addEventListener('click', delButtonHandler);
+document.querySelector('#rate').addEventListener('click', rateHandler);
+
