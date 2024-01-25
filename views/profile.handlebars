@@ -6,6 +6,7 @@
 
 <div class="row mt-4">
   <div class="col-md-6">
+    <form class="new-post-form">
     <h3>Create a New Post:</h3>
       <div class="form-group">
         <label for="post-content">content:</label>
@@ -17,8 +18,8 @@
     </form>
   </div>
 
-  {{#if posts.length}}
   <div class="col-md-6 posts-list">
+  {{#if posts.length}}
     <h3>Current Posts:</h3>
 
     {{#each posts as |post|}}
