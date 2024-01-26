@@ -1,47 +1,61 @@
-<div id="profileCard" >
-<div class="row">
-  <div class="col-auto">
-    <h2>Welcome! </h2>
-  </div>
-</div>
-
-<div class="row mt-4">
-  <div class="col-md-6">
-    <form class="new-post-form">
-    <h3>Create a New Post:</h3>
-     <div class="form-group">
-        <label for="post-title">Title:</label>
-        <textarea class="form-input" id="post-title" name="post-title"></textarea>
-      </div>
-      <div class="form-group">
-        <label for="post-content">content:</label>
-        <textarea class="form-input" id="post-content" name="post-content"></textarea>
-      </div>
-      <div class="form-group">
-        <button type="submit" class="btn btn-primary">Create</button>
-      </div>
-    </form>
-  </div>
-
-  <div class="col-md-6 posts-list">
-  {{#if posts.length}}
-    <h3>Current Posts:</h3>
-
-    {{#each posts as |post|}}
-    <div class="row mb-2">
-      <div class="col-md-8">
-        <h4><a href="/posts/{{post.id}}">{{post.title}}</a></h4>
-        <h5>{{post.rating}}</h5>
-      </div>
-      <div class="col-md-4">
-        <button id="delete" class="btn btn-sm btn-danger" data-id="{{post.id}}">DELETE</button>
-        <button id="rate" class="btn btn-sm btn-danger" data-id="{{post.id}}">RATE COMMENT</button>
+<div id="profileCard" class="container mt-4">
+  <div class="row">
+    <!-- Left-side card for user details -->
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-body text-center">
+          <h2 class="card-title">{{user_name}}'s SillyProfile!</h2>
+         <h3>{{first_name}} {{last_name}}</h3>
+         <h3>{{email}}</h3>
+         <h3>{{user_name}}</h3>
+        </div>
       </div>
     </div>
-    {{/each}}
-   </div>
-  {{/if}}
-</div>
+
+    <!-- Right-side card for creating new posts and displaying current posts -->
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-body">
+          <!-- Create new post form -->
+          <form class="new-post-form">
+            <h3>Create a New Post:</h3>
+            <div class="form-group">
+              <label for="post-title">Title:</label>
+              <textarea class="form-control" id="post-title" name="post-title"></textarea>
+            </div>
+            <div class="form-group">
+              <label for="post-content">Content:</label>
+              <textarea class="form-control" id="post-content" name="post-content"></textarea>
+            </div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary">Create</button>
+            </div>
+          </form>
+
+          <!-- Display current posts -->
+          <div class="posts-list mt-4">
+            {{#if posts.length}}
+              <h3>Current Posts:</h3>
+              {{#each posts as |post|}}
+                <div class="row mb-2">
+                  <div class="col-md-8">
+                    <h4><a href="/posts/{{post.id}}">{{post.title}}</a></h4>
+                    <h5>Current Post Rating: {{post.rating}}</h5>
+                  </div>
+                  <div class="col-md-4">
+                    <button id="delete" class="btn btn-sm btn-danger" data-id="{{post.id}}">DELETE</button>
+                    <button id="rate" class="btn btn-sm btn-danger" data-id="{{post.id}}">RATE POST</button>
+                  </div>
+                </div>
+              {{/each}}
+            {{else}}
+              <p>No posts available.</p>
+            {{/if}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 {{> test}}
-<script src="./js/profile.js"></script> 
+<script src="./js/profile.js"></script>

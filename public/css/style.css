@@ -124,8 +124,14 @@ body {
 }
 
  #profileCard {
-  background-color: #333;
-  color:#fff
+  background-color: rgba(
+    1,
+    11,
+    18,
+    0.8
+  );
+  color:whitesmoke;
+  border-radius: 25px;
  }
 
 .column {
@@ -145,3 +151,24 @@ body {
 .login-link:hover {
   color: whitesmoke;
 }
+
+.project {
+  background-color: rgba(
+    1,
+    11,
+    18,
+    0.8
+  );
+margin: 25px;
+border-radius: 15px;
+}
+
+.project h2 a, p {
+  color:whitesmoke;
+}
+
+.post-content p {
+  font-size: large;
+  padding-top: 25px;
+}
+
