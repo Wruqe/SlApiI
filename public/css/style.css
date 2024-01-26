@@ -111,6 +111,7 @@ body {
   padding: 15px;
   border-radius: 15px;
   height: max-content;
+  border: solid whitesmoke 2px;
 }
 
 .signupLogin h2 {
@@ -132,6 +133,7 @@ body {
   );
   color:whitesmoke;
   border-radius: 25px;
+
  }
 
 .column {
@@ -161,6 +163,7 @@ body {
   );
 margin: 25px;
 border-radius: 15px;
+border: solid whitesmoke 2px;
 }
 
 .project h2 a, p {
