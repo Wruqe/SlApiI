@@ -1,12 +1,15 @@
-<div class="text-center">
+<div class="text-center single-post">
   <h2>{{title}}</h2>
   <p>{{description}}</p>
-  <p>Created by {{user.name}} on {{format_date date_created}}</p>
+  <p>Created by {{user.user_name}} on {{format_date date_created}}</p>
   <p>
     <h5>Current Post Rating: {{rating}}</h5>
   </p>
   <p>
-    <button class="btn btn-sm btn-danger rate" data-id="{{id}}">RATE POST</button>
+    <button class="btn btn-lg btn-danger rate" data-id="{{id}}">
+      RATE POST
+       <img src="https://clipartcraft.com/images/emoji-transparent-fire-3.png" alt="Fire Emoji" class="emoji-icon" width="40" height="40">
+      </button>
   </p>
 </div>
 

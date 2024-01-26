@@ -196,3 +196,58 @@ color: whitesmoke;
 }
 
 /* ___________________________________________________________________ */
+
+.single-post {
+  background-color: rgba(
+    1,
+    11,
+    18,
+    0.8
+  );
+  border-radius: 15px;
+  border: solid whitesmoke 2px;
+}
+
+.single-post h2 {
+  color: whitesmoke;
+ font-size: xx-large;
+ padding-bottom: 25px;
+ padding-top: 15px;
+ text-decoration: underline;
+}
+
+.single-post p {
+  font-size: x-large;
+  padding-bottom: 25px;
+}
+
+.single-post h5 {
+  color: whitesmoke;
+  font-size: x-large;
+}
+
+.current-post {
+  border-top:solid whitesmoke 2px;
+ 
+  
+}
+.current-post h4 a {
+  color: whitesmoke;
+  font-size: x-large;
+}
+
+.current-post h5 {
+  font-size: large;
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
+
+.btn.btn-lg.btn-danger.rate {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.btn.btn-lg.btn-danger.delete {
+  margin-top: 10px;
+} 
