@@ -1,7 +1,7 @@
 [
   {
     "user_id": 1,
-    "title": "name of Post (So origional!)",
+    "title": "Parallet 'Cataverse'!",
     "description": "Just discovered a parallel universe where cats walk humans and demand treats. #UpsideDownPetWorld",
     "rating": 0,
     "comments": [
@@ -9,19 +9,17 @@
         "user_id": 2,
         "text": "Do they have catnip there? Asking for a friend in this universe. 😺",
         "rating": 0
-
       },
       {
         "user_id": 3,
         "text": "Can you bring me back a left-handed unicorn from that universe? Sounds like a wild place!",
         "rating": 0
-
       }
     ]
   },
   {
     "user_id": 3,
-    "title": "name of Post (So origional!)",
+    "title": "FPS Attraction",
     "description": "Invented a new dance move called the 'Funky Penguin Shuffle.' Warning: May attract actual penguins.",
     "rating": 0,
     "comments": [
@@ -29,33 +27,29 @@
         "user_id": 4,
         "text": "Dancing with penguins? Count me in! Do they have a signature move too?",
         "rating": 0
-
       },
       {
         "user_id": 5,
         "text": "I hope the penguins have good rhythm; otherwise, it might turn into a waddle-off!",
         "rating": 0
-
       }
     ]
   },
   {
     "user_id": 5,
-    "title": "name of Post (So origional!)",
+    "title": "Dancin' GoldFish",
     "description": "Tried to teach my goldfish how to breakdance. It just floated there, unimpressed. #FishFlop",
-    "rating":0,
+    "rating": 0,
     "comments": [
       {
         "user_id": 6,
         "text": "Maybe the goldfish is more into synchronized swimming. #FishFunk",
         "rating": 0
-
       },
       {
         "user_id": 7,
         "text": "You might need to upgrade to a hip-hop-loving betta fish for those breakdance lessons!",
         "rating": 0
-
       }
     ]
   }
