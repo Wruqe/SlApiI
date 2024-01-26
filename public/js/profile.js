@@ -57,6 +57,7 @@ console.log(response)
 }
 // Array for random gif generator
 // _________________________________________________________________
+
 document.addEventListener('DOMContentLoaded', function () {
 const profileGifarray = [
   "https://funsubstance.com/uploads/gif/215/215926.gif",
@@ -74,7 +75,7 @@ function getRandomImage() {
 const randomImageUrl = getRandomImage();
 document.getElementById('profileGif').src = randomImageUrl;
 
-
+});
 
 document
   .querySelector('.new-post-form')
@@ -83,6 +84,7 @@ document
 document
   .querySelector(".new-post-form")
   .addEventListener("submit", newFormHandler);
+
 if (deleteButton) {
   deleteButton.addEventListener("click", delButtonHandler);
 }
