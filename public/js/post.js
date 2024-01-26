@@ -7,13 +7,8 @@ const rateHandler = async (event) => {
       method: "PUT",
     });
     console.log(response);
-    if (response.ok) {
-      document.location.replace("/profile");
-    } else {
-      alert("Failed to rate post");
-    }
   }
 };
 if (rateButton){
-    rateButton.addEventListener("click", rateHandler);
+    rateButton.addEventListener("click", rateHandler)
 }
