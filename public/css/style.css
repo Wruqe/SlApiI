@@ -1,10 +1,12 @@
+/* __Header and body Styling__________________________________________ */
+
 .display-flex.justify-space-between.align-center.p-2 {
   background-color: rgba(
     255,
     255,
     255,
     0
-  ); /* Adjust the alpha (fourth value) for transparency */
+  ); 
   height: 120px;
   display: flex;
   justify-content: space-between;
@@ -34,12 +36,14 @@ body header {
 
 body {
   background-image: url("https://cdnblog.picsart.com/2020/04/funny-virtual-zoom-background-.jpg");
-  background-size: cover; /* Adjust the background size as needed */
+  background-size: cover; 
   background-repeat: no-repeat;
   margin: 0;
   padding: 0;
   height: 100vh;
 }
+
+/* _________________________________________________________________________ */
 
 #input {
   border: none;
@@ -96,7 +100,8 @@ body {
   bottom: 0;
   right: 0;
 }
-
+/* _____________________________________
+Sign up and login style */
 .signupLogin {
   color: whitesmoke;
   font-family: "Press Start 2P", system-ui;
@@ -107,17 +112,18 @@ body {
     11,
     18,
     0.8
-  ); /* Replace with your desired background color */
+  ); 
   padding: 15px;
   border-radius: 15px;
   height: max-content;
+  border: solid whitesmoke 2px;
 }
 
 .signupLogin h2 {
   text-align: center;
   padding-bottom: 20px;
 }
-
+/* __________________________________________________________ */
 .row {
   display: flex;
   justify-content: space-around;
@@ -132,11 +138,12 @@ body {
   );
   color:whitesmoke;
   border-radius: 25px;
+
  }
 
 .column {
   flex: 1;
-  margin-right: 100px; /* Adjust as needed for spacing between columns */
+  margin-right: 100px; 
 }
 
 .form-input {
@@ -152,6 +159,8 @@ body {
   color: whitesmoke;
 }
 
+/* _________________Homepage Style____________________________________________ */
+
 .project {
   background-color: rgba(
     1,
@@ -161,6 +170,7 @@ body {
   );
 margin: 25px;
 border-radius: 15px;
+border: solid whitesmoke 2px;
 }
 
 .project h2 a, p {
@@ -184,3 +194,5 @@ nav a {
 nav a:hover {
 color: whitesmoke;
 }
+
+/* ___________________________________________________________________ */
