@@ -4,9 +4,17 @@
 
 ## Description
 
-SlAPI, a pun for "Slappy", is a web application that serves as a repository for all things silly and whimsical. Users can explore a collection of funny and quirky data, as well as contribute their own by adding new silly entries.
+"slAPI", a pun of slappy, is a web application that serves as a repository for all things silly and whimsical. Users can explore a collection of funny and quirky data, as well as contribute their own by adding new silly entries.
 
 Along with these contributions, users can rate other's posts. These ratings calculate our an average score, showing all users what their average rating on the platform is.
+
+While there, users can interact with one another in the chat-box, allowing for me tomfoolery and ballyhoo to take place in real time.
+
+[slAPI Land](https://desolate-sierra-47851-d89056b73f92.herokuapp.com/)
+
+![SillyAPI Land Homepage](assets/images/SillyAPI.jpg)
+
+![Login & Signup Page](assets/images/Loggin_Create.jpg)
 
 ## Tabel of Contents
 
@@ -15,6 +23,9 @@ Along with these contributions, users can rate other's posts. These ratings calc
 - [Tabel of Contents](#tabel-of-contents)<br>
 - [User Story](#user-story)<br>
 - [Acceptance Criteria](#acceptance-criteria)<br>
+- [Installation](#installation)<br>
+- [Technologies](#technologies)<br>
+- [Packages](#packages)<br>
 - [License](#license)<br>
 - [Contributing](#contributing)<br>
 - [Tests](#tests)<br>
@@ -37,10 +48,42 @@ Along with these contributions, users can rate other's posts. These ratings calc
 **THEN** their password is encripted
 
 **WHEN** a user makes a post <br>
-**THEN** othe users can comment on, and rate from 1-5, said post
+**THEN** othe users can comment on, and rate said post
 
-**WHEN** ratings are given to posts <br>
-**THEN** they are recorded in the database display an average score of the users posts
+**WHEN** when the "chat" link is clicked<br>
+**THEN** users can chat with one another on the site
+
+**WHEN** when the "profile" link is clicked<br>
+**THEN** a user can create a new post
+
+## Installation
+
+No installation needed. App is deplayed on Heroku.
+
+## Technologies
+
+![MySQL](https://img.shields.io/badge/-MySql-4479a1?style=for-the-badge&logo=mysql&logoColor=white)
+
+![Heroku](https://img.shields.io/badge/-Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
+
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+
+![Javascript](https://img.shields.io/badge/-JavaScript-f7df1e?style=for-the-badge&logo=javascript&logoColor=black)
+
+## Packages
+
+The following npm packages were also used:
+
+`MySQL2`<br>
+`bcrypt`<br>
+`dotenv`<br>
+`nodemon`<br>
+`Sequelize`<br>
+`socket.io`<br>
+`express.js`<br>
+`express-session`<br>
+`express-handlebars`<br>
+`connect-session-sequelize`
 
 ## License
 
@@ -72,16 +115,13 @@ SOFTWARE.
 
 ## Contributing
 
-- Conor Allen
-  - GitHub: [Callen996](https://github.com/callen996)
-- Whitney Simpson
-  - GitHub: [Whitney-Simpson](https://github.com/Whitney-Simpson)
-- Ernest Jones
-  - GitHub: [Wruqe](https://github.com/Wruqe)
-- Greg Greve
-  - GitHub: [Goobergreve09](https://github.com/Goobergreve09)
-- Heinz Ulrich V
-  - GitHub: [TheOarsman](https://github.com/TheOarsman)
+![GitHub Badge](assets/images/image-1.png)
+
+- Conor Allen: [Callen996](https://github.com/callen996)
+- Whitney Simpson: [Whitney-Simpson](https://github.com/Whitney-Simpson)
+- Ernest Jones: [Wruqe](https://github.com/Wruqe)
+- Greg Greve: [Goobergreve09](https://github.com/Goobergreve09)
+- Heinz Ulrich V: [TheOarsman](https://github.com/TheOarsman)
 
 ## Tests
 
@@ -93,4 +133,10 @@ None currently
 
 ## Questions/Contact
 
-See [Contributing](#contributing)
+See [Contributing](#contributing) or send one of us an email!
+
+[Conor Allen](mailto:conorallen5252@gmail.com)<br>
+[Whitney Simpson](mailto:whitmoon4819@gmail.com)<br>
+[Ernest Jones](mailto:wruqess@gmail.com)<br>
+[Greg Greve](mailto:gregory.greve@yahoo.com)<br>
+[Heinz Ulrich V](mailto:heinzulrichv@gmail.com)
