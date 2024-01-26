@@ -43,8 +43,8 @@
                     <h5>Current Post Rating: {{post.rating}}</h5>
                   </div>
                   <div class="col-md-4">
-                    <button id="delete" class="btn btn-sm btn-danger" data-id="{{post.id}}">DELETE</button>
-                    <button id="rate" class="btn btn-sm btn-danger" data-id="{{post.id}}">RATE POST</button>
+                    <button class="btn btn-sm btn-danger delete" data-id="{{post.id}}">DELETE</button>
+                    <button class="btn btn-sm btn-danger rate" data-id="{{post.id}}">RATE POST</button>
                   </div>
                 </div>
               {{/each}}
@@ -58,4 +58,6 @@
   </div>
 </div>
 {{> test}}
-<script src="./js/profile.js"></script>
+<script src="/js/profile.js"></script>
+<script src="/js/post.js"></script>
+

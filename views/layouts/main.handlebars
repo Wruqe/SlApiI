@@ -37,16 +37,14 @@
     <footer>
       
     </footer>
-    <script>
-       document.getElementById('openChat').addEventListener('click', function () {
-        document.querySelector('#chat').removeAttribute('class');
-       })
-    </script>
+    
   </div>
 
   <!-- Render script for logged in users only -->
   {{#if logged_in}}
   <script src="/js/logout.js"></script>
+    <script src="/js/main.js"></script>
+
   {{/if}}
 </body>
 
