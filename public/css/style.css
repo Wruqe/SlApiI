@@ -167,8 +167,20 @@ border-radius: 15px;
   color:whitesmoke;
 }
 
+.project p {
+  font-size: large;
+}
+
 .post-content p {
   font-size: large;
   padding-top: 25px;
 }
 
+nav a {
+  font-size: xx-large;
+  color: whitesmoke;
+}
+
+nav a:hover {
+color: whitesmoke;
+}
