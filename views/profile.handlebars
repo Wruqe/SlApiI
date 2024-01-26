@@ -38,14 +38,20 @@
             {{#if posts.length}}
               <h3>Current Posts:</h3>
               {{#each posts as |post|}}
-                <div class="row mb-2">
+                <div class="row mb-2 current-post">
                   <div class="col-md-8">
                     <h4><a href="/posts/{{post.id}}">{{post.title}}</a></h4>
                     <h5>Current Post Rating: {{post.rating}}</h5>
                   </div>
-                  <div class="col-md-4">
-                    <button class="btn btn-sm btn-danger delete" data-id="{{post.id}}">DELETE</button>
-                    <button class="btn btn-sm btn-danger rate" data-id="{{post.id}}">RATE POST</button>
+                  <div class="col-md-4 current-post-buttons">
+                    <button class="btn btn-lg btn-danger delete" data-id="{{post.id}}">
+                      DELETE 
+                      <img src="https://icons.iconarchive.com/icons/vexels/office/1024/trash-icon.png" alt="Trash Icon" class="trash-icon" width="30" height="30">
+                      </button>
+                    <button class="btn btn-lg btn-danger rate " data-id="{{post.id}}">
+                      RATE POST
+                      <img src="https://clipartcraft.com/images/emoji-transparent-fire-3.png" alt="Fire Emoji" class="emoji-icon" width="30" height="30">
+                      </button>
                   </div>
                 </div>
               {{/each}}
