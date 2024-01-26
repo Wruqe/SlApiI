@@ -1,7 +1,7 @@
 [
   {
-    "first_name": "JJJJ",
-    "last_name": "JJJ",
+    "first_name": "Betty",
+    "last_name": "White",
     "user_name": "WhimsyMaster",
     "password": "SillyPass123",
     "email": "whimsymaster@example.com",
@@ -11,8 +11,8 @@
   
   },
   {
-    "first_name": "LLL",
-    "last_name": "LLL",
+    "first_name": "Clint",
+    "last_name": "Eastwood",
     "user_name": "LaughingLuna",
     "password": "Giggles456",
     "email": "laughingluna@gmail.com",
@@ -22,8 +22,8 @@
    
   },
   {
-    "first_name": "PPP",
-    "last_name": "PPP",
+    "first_name": "Pigeon",
+    "last_name": "Frank",
     "user_name": "QuirkQuester",
     "password": "JovialPass789",
     "email": "quirkquester@hotmail.com",
@@ -33,8 +33,8 @@
  
   },
   {
-    "first_name": "OOO",
-    "last_name": "OOO",
+    "first_name": "Sally",
+    "last_name": "Spice",
     "user_name": "ChuckleChampion",
     "password": "WackyCode987",
     "email": "chucklechampion@yahoo.com",
