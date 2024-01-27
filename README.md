@@ -44,17 +44,44 @@ While there, users can interact with one another in the chat-box, allowing for m
 
 **GIVEN** a functional web based application for tomfoolery and shennanigans
 
-**WHEN** an account is created <br>
-**THEN** their password is encripted
+**WHEN** presented with homepage <br>
+**THEN**  can view a nav bar with a home route and login, along with all posts that have been created and the number of likes per post 
 
-**WHEN** a user makes a post <br>
-**THEN** othe users can comment on, and rate said post
+**WHEN** clicking on a post <br>
+**THEN** if not logged the user is redirected to the login page, if logged in directed that post's page.
 
-**WHEN** when the "chat" link is clicked<br>
-**THEN** users can chat with one another on the site
+**WHEN** when a user completes member signup <br>
+**THEN** their password is encripted and they are redirect to the profile page
 
-**WHEN** when the "profile" link is clicked<br>
-**THEN** a user can create a new post
+**WHEN** already a user <br>
+**THEN** you can login with your email and password and will be redirect to the profile page
+
+**WHEN** a user enters a title and content and clicks the create button <br>
+**THEN** a post is created below current posts
+
+**WHEN** a user clicks the delete button <br>
+**THEN** the post is deleted
+
+**WHEN** a user clicks on the post created <br>
+**THEN** the user is redirected to the post's page
+
+**WHEN** a user clicks on the like post <br>
+**THEN** the number of likes increases
+
+**WHEN** a user clicks on the any number of starts for a rating <br>
+**THEN** the stars change color based on what is chosen
+
+**WHEN** a user clicks submit stars <br>
+**THEN** the rating of stars is submitted(feature currently not working)
+
+**WHEN** a user clicks on the slAPI Profile in the nav bar <br>
+**THEN** they are redirected to their profile page
+
+**WHEN** a user clicks on the chat in the nav bar <br>
+**THEN** a chat box appears in the bottom corner and can be used to chat with othe rusers
+
+**WHEN** when the user clicks logout on the nav bar<br>
+**THEN** the user is logged out and redirected to the homepage
 
 ## Installation
 
