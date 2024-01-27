@@ -159,7 +159,17 @@
       width: 90%; 
       margin: 0 auto 20px; 
     }
+/* _____________chatbox_________________________________ */
+
+
+    #chat {
+        width: 100vw;
+        position: fixed;
+    }
     
+    #form {
+        width: 100vw;
+    }
     
     }
     
