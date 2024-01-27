@@ -7,6 +7,10 @@ const rateHandler = async (event) => {
       method: "PUT",
     });
     console.log(response);
+    
+    if (response.ok) {
+      document.location.replace(`/posts/${id}`);
+    }
   }
 };
 if (rateButton){

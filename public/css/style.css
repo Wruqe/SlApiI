@@ -74,7 +74,7 @@ body {
   border: none;
   padding: 0 1rem;
   margin: 0.25rem;
-  border-radius: 3px;
+  /* border-radius: 3px; */
   outline: none;
   color: #fff;
 }
@@ -86,8 +86,6 @@ body {
 
 #messages > li {
   padding: 0.5rem 1rem;
-}
-#messages > li:nth-child(odd) {
   background: #efefef;
 }
 .hide {
@@ -96,9 +94,17 @@ body {
 #chat {
   position: absolute;
   width: 600px;
-  height: 300px;
+  height: 200px;
   bottom: 0;
   right: 0;
+  background-color: rgba(
+    1,
+    11,
+    18,
+    0.8
+  );
+border-radius: 15px;
+border: solid whitesmoke 2px;
 }
 /* _____________________________________
 Sign up and login style */

@@ -16,7 +16,22 @@ function gfg(n) {
         else if (n == 5) cls = "five";
         stars[i].className = "star " + cls;
     }
+
     output.innerText = "Rating is: " + n + "/5";
+
+   //fetch for stars, working on???
+//    const starHandler= async(event) => {
+//     if (event.target.hasAttribute("data-id")) {
+//         const id = event.target.getAttribute("data-id");
+//         console.log(id);
+     
+//         const response = await fetch(`/api/ratings/${id}`, {
+//           method: "PUT",
+//         });
+//         console.log(response);
+//       }
+// }
+// document.getElementById('starBtn').addEventListener('click', starHandler())
 }
 // To remove the pre-applied styling
 function remove() {
@@ -26,4 +41,5 @@ function remove() {
         i++;
     }
 }
+
 

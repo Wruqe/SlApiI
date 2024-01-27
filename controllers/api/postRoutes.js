@@ -19,6 +19,12 @@ router.post("/", (req, res) => {
   });
 });
 
+//part of trying to add stars 
+// router.put("/stars/:id", async(req, res) => {
+//   const updatedPost = await Post.update(req.body, {where: {id: req.params.id}})
+//   res.json(updatedPost)
+// })
+
 router.delete("/:id", (req, res) => {
   Post.destroy({ where: { id: req.params.id } }).then((response) => {
     res.json(response);
