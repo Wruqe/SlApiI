@@ -216,6 +216,12 @@ color: whitesmoke;
  text-decoration: underline;
 }
 
+.single-post h4 {
+  color: whitesmoke;
+  font-style: italic;
+  font-size: x-large;
+}
+
 .single-post p {
   font-size: x-large;
   padding-bottom: 25px;
@@ -228,6 +234,7 @@ color: whitesmoke;
 
 .current-post {
   border-top:solid whitesmoke 2px;
+  padding-bottom: 10px;
  
   
 }
