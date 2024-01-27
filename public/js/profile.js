@@ -40,21 +40,6 @@ const delButtonHandler = async (event) => {
 };
 
 
-const rateHandler = async(event) =>{
-  if (event.target.hasAttribute('data-id')) {
-    const id = event.target.getAttribute('data-id');
-    console.log(id)
-    const response = await fetch(`/api/ratings/${id}`, {
-      method: 'PUT',
-    });
-console.log(response)
-    if (response.ok) {
-      document.location.replace('/profile');
-    } else {
-      alert('Failed to rate post');
-    }
-  }
-}
 // Array for random gif generator
 // _________________________________________________________________
 
