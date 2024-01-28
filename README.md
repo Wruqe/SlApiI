@@ -1,4 +1,4 @@
-# SlApiI
+# slAPI
 
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
@@ -16,9 +16,15 @@ While there, users can interact with one another in the chat-box, allowing for m
 
 ![Login & Signup Page](assets/images/Loggin_Create.jpg)
 
+![Logged In Display](assets/images/Logged_In.png)
+
+![Create Post](assets/images/Create_Post.png)
+
+![Rate Post](assets/images/Rate_Post.png)
+
 ## Tabel of Contents
 
-- [SlApiI](#slapii)<br>
+- [SlApiI](#slapi)<br>
 - [Description](#description)<br>
 - [Tabel of Contents](#tabel-of-contents)<br>
 - [User Story](#user-story)<br>
@@ -45,7 +51,7 @@ While there, users can interact with one another in the chat-box, allowing for m
 **GIVEN** a functional web based application for tomfoolery and shennanigans
 
 **WHEN** presented with homepage <br>
-**THEN**  can view a nav bar with a home route and login, along with all posts that have been created and the number of likes per post 
+**THEN** can view a nav bar with a home route and login, along with all posts that have been created and the number of likes per post
 
 **WHEN** clicking on a post <br>
 **THEN** if not logged the user is redirected to the login page, if logged in directed that post's page.
