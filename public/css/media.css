@@ -1,0 +1,175 @@
+@media only screen and (max-width: 460px) and (min-width: 320px) {
+
+    /* ________________body, header, and nav____________________________ */
+    
+      body, html {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    
+      body {
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+      }
+      
+    
+      .container.container-fluid.mt-5 {
+        max-height: 100vh;
+      }
+    
+      header #openChat
+      {
+        font-size: 14px; 
+      }
+    
+    header #logout.no-button {
+      font-size: 14px;
+    }
+    
+    nav {
+      padding-left: 40px;
+    }
+    nav a {
+      font-size: 16px;
+    }
+    /* ___________profile__________________________________________________ */
+    
+    #profileCard .row {
+      flex-direction: column; 
+    }
+    
+    #profileCard .col-md-6 {
+      width: 100%;
+      box-sizing: border-box;
+    }
+    
+    #profileCard .profile-info,
+    #profileCard .card-body {
+      width: 100%;
+    }
+    
+    #profileCard .profile-info h2 {
+      font-size: 20px;
+    }
+    
+    #profileCard .profile-info h3 {
+      font-size: 16px;
+    }
+    
+    #profileCard .profile-info img {
+      width: 150px;
+      height: 150px;
+    }
+    
+    #profileCard .new-post-form {
+      border-top: 2px solid whitesmoke; 
+      padding-top: 15px; 
+    }
+    
+    #profileCard .new-post-form h3 {
+      font-size: 20px; 
+    }
+    
+    
+    .posts-list {
+      border-top: 2px solid whitesmoke; 
+    
+    }
+    .posts-list h3 {
+      font-size: 20px;
+    }
+    
+    .posts-list .current-post h4 a {
+      font-size: 18px; 
+    }
+    
+    .current-post {
+      border-top: 2px dashed whitesmoke;
+    }
+    
+    .posts-list .current-post .btn-danger {
+      padding: 5px 10px; 
+      font-size: 14px; 
+    }
+    
+    /* _____homepage_________________________________________________________ */
+    
+    .project.row {
+      flex-direction: column;
+    }
+    
+    .project h2 {
+      font-size: 24px;
+    }
+    .project .col-md-5,
+    .project .col-md-7 {
+      text-align:  center;
+    }
+    
+    .created-by p {
+      font-size: 14px;
+    }
+    
+    /* ______post__________________________________________________ */
+    
+    .single-post h2 {
+      font-size: 26px;
+    }
+    
+    .single-post p {
+      font-size: 20px;
+      padding: 0px;
+      padding-bottom: 10px;
+    }
+    
+    .single-post h4 {
+      font-size: 14px;
+    }
+    
+    .single-post h5 {
+      font-size: 20px;
+    }
+    
+    .btn.btn-lg.btn-danger.rate {
+      font-size: 14px; 
+      margin: 0px; 
+    }
+    
+    .star {
+      font-size: 40px;
+    }
+    
+    #starBtn {
+      margin-bottom: 10px;
+    }
+    
+    /* _____login and signup__________________________________________ */
+    
+    .row  {
+      flex-direction: column;
+    }
+    
+    .signupLogin {
+      margin-bottom: 20px;
+    }
+    
+    .row .col-md-5 {
+      width: 90%; 
+      margin: 0 auto 20px; 
+    }
+/* _____________chatbox_________________________________ */
+
+
+    #chat {
+        width: 100vw;
+        position: fixed;
+    }
+    
+    #form {
+        width: 100vw;
+    }
+    
+    }
+    
