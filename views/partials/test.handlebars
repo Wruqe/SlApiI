@@ -20,13 +20,26 @@
 </div>
 <script src="/socket.io/socket.io.js"></script>
 <script>
+  const socket = io();
+  const form = document.getElementById('form');
+  const input = document.getElementById('input');
+  const messages = document.getElementById('messages');
 
-  const socket = io(); const form = document.getElementById('form'); const input
-  = document.getElementById('input'); const messages =
-  document.getElementById('messages'); form.addEventListener('submit', (e) => {
-  e.preventDefault(); if (input.value) { socket.emit('chat message',
-  input.value); input.value = ''; } }); socket.on('chat message', (msg) => {
-  const item = document.createElement('li'); item.textContent = msg;
-  messages.appendChild(item); window.scrollTo(0, document.body.scrollHeight);
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const message = input.value.trim();
+    if (message) {
+      // Send an object with user_name and message properties
+      socket.emit('chat message', { user_name: '{{user_name}}', message: message });
+      input.value = '';
+    }
+  });
+
+  socket.on('chat message', (data) => {
+    const item = document.createElement('li');
+    // Display both user_name and message
+    item.innerHTML = `<span class="username">${data.user_name}:</span> ${data.message}`;
+    messages.appendChild(item);
+    window.scrollTo(0, document.body.scrollHeight);
   });
 </script>
