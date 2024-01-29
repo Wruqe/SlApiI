@@ -106,6 +106,12 @@ body {
 border-radius: 15px;
 border: solid whitesmoke 2px;
 }
+
+.username {
+  color: red;
+  font-weight: bold;
+}
+
 /* _____________________________________
 Sign up and login style */
 .signupLogin {
