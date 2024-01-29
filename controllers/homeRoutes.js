@@ -9,9 +9,15 @@ router.get('/', async (req, res) => {
         include: [{ model: User }, {model: Comment }], 
       });
 
+      const userData = await User.findByPk(req.session.user_id, {
+        attributes: { exclude: ['password'] },
+      });
+
     const posts = postData.map(post => post.get({ plain: true }));
+    const user = userData.get({ plain: true });
 
     res.render('homepage', {
+      ...user,
       posts,
       logged_in: req.session.logged_in,
     });
