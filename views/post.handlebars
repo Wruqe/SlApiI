@@ -8,29 +8,25 @@
   <p>
     <button class="btn btn-lg btn-danger rate" data-id="{{id}}"> Click to Like Post<img src="https://clipartcraft.com/images/emoji-transparent-fire-3.png" alt="Fire Emoji" class="emoji-icon" width="30" height="30"></button>
   </p>
-  <div>
-  <h5>Star Rating</h5>
-   <div class="allStars">
-        <span onclick="gfg(1)"
-              class="star">★
-        </span>
-        <span onclick="gfg(2)"
-              class="star">★
-        </span>
-        <span onclick="gfg(3)"
-              class="star">★
-        </span>
-        <span onclick="gfg(4)"
-              class="star">★
-        </span>
-        <span onclick="gfg(5)"
-              class="star">★
-        </span>
-        <h5 id="output">
-              Rating is: 0/5
-      </h5>
-      <button id="starBtn" data-id="{{id}}">Submit Stars</button>
+  	<div class="container">
+              <h5>Star Rating</h5>
+		<div class="rating">
+			<span id="rating">0</span>/5
+		</div>
+		<div class="stars" id="stars">
+			<span class="star" data-value="1">★</span>
+			<span class="star" data-value="2">★</span>
+			<span class="star" data-value="3">★</span>
+			<span class="star" data-value="4">★</span>
+			<span class="star" data-value="5">★</span>
+		</div>
+		<div id="review"
+				placeholder=" ">
     </div>
+		<button id="submit">Submit</button>
+		<div class="reviews" id="reviews">
+		</div>{{star}}
+	</div>
     </div>
 </div>
 {{>test}}
