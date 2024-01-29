@@ -8,9 +8,11 @@
 
 Along with these contributions, users can rate other's posts. These ratings calculate our an average score, showing all users what their average rating on the platform is.
 
-While there, users can interact with one another in the chat-box, allowing for me tomfoolery and ballyhoo to take place in real time.
+While there, users can interact with one another in the chat-box, allowing for me tomfoolery and ballyhoo to take place in real time.<br><br>
 
-[slAPI Land](https://desolate-sierra-47851-d89056b73f92.herokuapp.com/)
+Website: [slAPI Land](https://desolate-sierra-47851-d89056b73f92.herokuapp.com/)<br><br>
+
+YouTueb: [SillyAPI Land Video Demonstration](https://youtu.be/NXnet7akNKo)<br><br>
 
 ![SillyAPI Land Homepage](assets/images/SillyAPI.jpg)
 
