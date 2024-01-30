@@ -16,7 +16,7 @@
     const message = input.value.trim();
     if (message) {
       // Send an object with user_name and message properties
-      socket.emit('chat message', { user_name: '{{user_name}}', message: message });
+      socket.emit('chat message', { user_name: '{{chat_name}}', message: message });
       input.value = '';
     }
   });

@@ -37,11 +37,15 @@ body header {
 body {
   background-image: url("https://cdnblog.picsart.com/2020/04/funny-virtual-zoom-background-.jpg");
   background-size: cover; 
+ background-attachment: fixed;
   background-repeat: no-repeat;
   margin: 0;
   padding: 0;
   height: 100vh;
 }
+
+
+
 
 /* _________________________________________________________________________ */
 
