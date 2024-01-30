@@ -28,14 +28,9 @@ Post.init(
       type: DataTypes.INTEGER,
       defaultValue: 0,
     },
-    
-    //trying to figure out how to add stars
-    // star: {
-    //   type: DataTypes.INTEGER,
-    //   defaultValue: 0,
-    //   validate: {max: [5]},
-    // },
-
+    star_average: {
+      type: DataTypes.DECIMAL(3,2),
+    },
     user_id: {
       type: DataTypes.INTEGER,
       references: {
