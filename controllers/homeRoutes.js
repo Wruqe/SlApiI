@@ -8,17 +8,22 @@ router.get('/', async (req, res) => {
     const postData = await Post.findAll({
         include: [{ model: User }, {model: Comment }], 
       });
-
-      const userData = await User.findByPk(req.session.user_id, {
-        attributes: { exclude: ['password'] },
-      });
-
+      let userData;
+      let user;
+      if (req.session.logged_in) {
+        userData = await User.findByPk(req.session.user_id, {
+          attributes: { exclude: ['password'] },
+        });
+         user = userData.get({ plain: true });
+      } else {
+        user = {}
+      }
     const posts = postData.map(post => post.get({ plain: true }));
-    const user = userData.get({ plain: true });
 
     res.render('homepage', {
       ...user,
       posts,
+      chat_name: user.user_name,
       logged_in: req.session.logged_in,
     });
   } catch (err) {
