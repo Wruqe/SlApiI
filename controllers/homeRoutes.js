@@ -1,24 +1,26 @@
 const router = require("express").Router();
-const { User, Post, Comment } = require('../models');
-const withAuth = require('../utils/auth');
+const { User, Post, Comment, Star } = require("../models");
+const withAuth = require("../utils/auth");
 
-
-router.get('/', async (req, res) => {
+router.get("/", async (req, res) => {
   try {
     const postData = await Post.findAll({
-        include: [{ model: User }, {model: Comment }], 
-      });
-      let userData;
-      let user;
-      if (req.session.logged_in) {
-        userData = await User.findByPk(req.session.user_id, {
-          attributes: { exclude: ['password'] },
-        });
-         user = userData.get({ plain: true });
-      } else {
-        user = {}
-      }
-    const posts = postData.map(post => post.get({ plain: true }));
+      include: [User, Comment, Star],
+    });
+    // let totalStars = 0;
+    // let averageStars = 0;
+    // postData.forEach(async (post) => {
+    //   const starArray = post.stars;
+    //   starArray.forEach((star) => {
+       
+    //     totalStars += star.starNum;
+    //     averageStars = totalStars / starArray.length;
+    //   });
+    //   const updatedPosts = await Post.update({starAverage:averageStars}, {where: {id:post.id}})
+    // });
+
+    const posts = postData.map((post) => post.get({ plain: true }));
+// 
 
     res.render('homepage', {
       ...user,
@@ -32,13 +34,13 @@ router.get('/', async (req, res) => {
   }
 });
 
-router.get('/login', (req, res) => {
-    if (req.session.logged_in) {
-      res.redirect('/');
-      return;
-    }
-  
-    res.render('login');
-  });
+router.get("/login", (req, res) => {
+  if (req.session.logged_in) {
+    res.redirect("/");
+    return;
+  }
+
+  res.render("login");
+});
 
 module.exports = router;
