@@ -83,9 +83,11 @@ body {
   color: #fff;
 }
 #messages {
+  overflow-y: auto;
   list-style-type: none;
   margin: 0;
   padding: 0;
+  max-height: 175px;
 }
 
 #messages > li {
