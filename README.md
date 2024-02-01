@@ -12,7 +12,7 @@ While there, users can interact with one another in the chat-box, allowing for m
 
 Website: [slAPI Land](https://desolate-sierra-47851-d89056b73f92.herokuapp.com/)<br><br>
 
-YouTueb: [SillyAPI Land Video Demonstration](https://youtu.be/NXnet7akNKo)<br><br>
+YouTueb: [SillyAPI Land Video Demonstration](https://youtu.be/q2tSwdYtfWs)<br><br>
 
 ![SillyAPI Land Homepage](assets/images/SillyAPI.jpg)
 
